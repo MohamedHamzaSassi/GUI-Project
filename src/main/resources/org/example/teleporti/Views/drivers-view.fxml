@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.cell.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.example.teleporti.SceneControllers.DriversViewController"
+            stylesheets="@style.css"
+            styleClass="main-container">
+
+    <left>
+        <VBox alignment="TOP_CENTER" spacing="15.0" styleClass="sidebar" prefWidth="200.0">
+            <padding>
+                <Insets top="20" right="10" bottom="20" left="10"/>
+            </padding>
+            <ImageView fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                <Image url="@../Images/logo.png"/>
+            </ImageView>
+            <Region prefHeight="20.0" />
+            <Button alignment="CENTER_LEFT" styleClass="button-primary" text="Accueil" onAction="#onGotToHome" maxWidth="Infinity"/>
+            <Button alignment="CENTER_LEFT" styleClass="button-primary" text="Profil" onAction="#onGotToProfile" maxWidth="Infinity"/>
+            <Region VBox.vgrow="ALWAYS" />
+            <Button alignment="CENTER" styleClass="button-primary" text="Déconnecter" onAction="#onLogout" maxWidth="Infinity" style="-fx-background-color: #ef4444;"/>
+        </VBox>
+    </left>
+
+    <center>
+        <VBox spacing="20.0">
+            <padding>
+                <Insets top="20" right="20" bottom="20" left="20"/>
+            </padding>
+            
+            <HBox alignment="CENTER_LEFT" spacing="15.0">
+                <Label text="Nos Chauffeurs" style="-fx-font-size: 24px; -fx-font-weight: bold; -fx-text-fill: -tp-primary;"/>
+                <Region HBox.hgrow="ALWAYS" />
+                <TextField fx:id="searchField" promptText="Rechercher un chauffeur..." prefWidth="250.0" styleClass="text-field"/>
+                <Label fx:id="welcome" styleClass="welcome"/>
+            </HBox>
+
+            <VBox styleClass="tp-card" spacing="15.0" VBox.vgrow="ALWAYS">
+                <HBox alignment="CENTER_RIGHT">
+                    <Button styleClass="button-primary" text="Recharger" onAction="#onRefresh"/>
+                </HBox>
+                
+                <TableView fx:id="usersTable" VBox.vgrow="ALWAYS">
+                    <columns>
+                        <TableColumn fx:id="idColumn" text="ID"><cellValueFactory><PropertyValueFactory property="id"/></cellValueFactory></TableColumn>
+                        <TableColumn fx:id="nomColumn" text="Nom"><cellValueFactory><PropertyValueFactory property="nom"/></cellValueFactory></TableColumn>
+                        <TableColumn fx:id="prenomColumn" text="Prénom"><cellValueFactory><PropertyValueFactory property="prenom"/></cellValueFactory></TableColumn>
+                        <TableColumn fx:id="emailColumn" text="Email"><cellValueFactory><PropertyValueFactory property="email"/></cellValueFactory></TableColumn>
+                        <TableColumn fx:id="governeratColumn" text="Gouvernorat"><cellValueFactory><PropertyValueFactory property="governerat"/></cellValueFactory></TableColumn>
+                        <TableColumn fx:id="telephoneColumn" text="Téléphone"><cellValueFactory><PropertyValueFactory property="telephone"/></cellValueFactory></TableColumn>
+                    </columns>
+                </TableView>
+            </VBox>
+        </VBox>
+    </center>
+</BorderPane>

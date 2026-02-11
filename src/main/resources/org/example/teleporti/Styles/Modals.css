@@ -1,0 +1,79 @@
+.container {
+    -fx-alignment: center;
+    -fx-spacing: 10px;
+    -fx-background-color: #333;
+    -fx-text-fill: #fff;
+    -fx-padding: 20px;
+}
+
+.text-title {
+    -fx-font-size: 20px;
+    -fx-text-fill: #fff;
+    -fx-wrap-text: true;
+}
+
+.button {
+    -fx-background-color: #4999f1;
+    -fx-text-fill: #fff;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-border-color: #fff;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px 10px;
+}
+
+.button:hover {
+    -fx-background-color: #3f8ac2;
+}
+
+.modal {
+    -fx-background-color: #333;
+    -fx-alignment: center;
+    -fx-spacing: 10px;
+    -fx-padding: 20px;
+    -fx-pref-width: 600px;
+}
+
+TextField, PasswordField {
+    -fx-text-fill: #333;
+    -fx-font-size: 15px;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-background-color: #ecf0f1;
+    -fx-border-color: #bdc3c7;
+    -fx-background-radius: 5px;
+    -fx-padding: 10px;
+}
+
+MenuButton {
+    -fx-background-color: #fff;
+    -fx-text-fill: #333;
+    -fx-font-size: 15px;
+    -fx-border-color: #333;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-padding: 10px;
+    -fx-pref-width: 600px;
+}
+
+MenuBar {
+    -fx-background-color: #333;
+    -fx-text-fill: #fff;
+    -fx-font-size: 15px;
+    -fx-border-color: #fff;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-padding: 10px;
+}
+
+MenuItem {
+    -fx-background-color: #333;
+    -fx-text-fill: #fff;
+    -fx-font-size: 15px;
+    -fx-border-color: #fff;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px 10px;
+    -fx-pref-width: 600px;
+}

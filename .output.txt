@@ -1,0 +1,423 @@
+Apache Maven 3.8.5 (3599d3414f046de2324203b78ddcf9b5e4388aa0)
+Maven home: C:\Users\moham\.m2\wrapper\dists\apache-maven-3.8.5-bin\5i5jha092a3i37g0paqnfr15e0\apache-maven-3.8.5
+Java version: 17.0.16, vendor: Eclipse Adoptium, runtime: C:\Program Files\Eclipse Adoptium\jdk-17.0.16.8-hotspot
+Default locale: en_US, platform encoding: Cp1252
+OS name: "windows 11", version: "10.0", arch: "amd64", family: "windows"
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: javax.annotation.* < plexus.core
+[DEBUG]   Imported: javax.annotation.security.* < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.fusesource.jansi.* < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: org.slf4j.event.* < plexus.core
+[DEBUG]   Imported: org.slf4j.helpers.* < plexus.core
+[DEBUG]   Imported: org.slf4j.spi.* < plexus.core
+[DEBUG] Populating class realm maven.api
+[INFO] Error stacktraces are turned on.
+[DEBUG] Message scheme: color
+[DEBUG] Message styles: debug info warning error success failure strong mojo project
+[DEBUG] Reading global settings from C:\Users\moham\.m2\wrapper\dists\apache-maven-3.8.5-bin\5i5jha092a3i37g0paqnfr15e0\apache-maven-3.8.5\conf\settings.xml
+[DEBUG] Reading user settings from C:\Users\moham\.m2\settings.xml
+[DEBUG] Reading global toolchains from C:\Users\moham\.m2\wrapper\dists\apache-maven-3.8.5-bin\5i5jha092a3i37g0paqnfr15e0\apache-maven-3.8.5\conf\toolchains.xml
+[DEBUG] Reading user toolchains from C:\Users\moham\.m2\toolchains.xml
+[DEBUG] Using local repository at C:\Users\moham\.m2\repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for C:\Users\moham\.m2\repository
+[INFO] Scanning for projects...
+[DEBUG] Extension realms for project org.example:TelePorti:jar:1.0-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: org.example:TelePorti:jar:1.0-SNAPSHOT
+[DEBUG] Tasks:   [compile]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO]
+[INFO] -----------------------< org.example:TelePorti >------------------------
+[INFO] Building TelePorti 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for apache.snapshots (http://repository.apache.org/snapshots).
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       org.example:TelePorti:1.0-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [compile]
+[DEBUG] Repositories (dependencies): [maven_central (https://repo.maven.apache.org/maven2/, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Repositories (plugins)     : [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.6:resources (default-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString>${maven.resources.escapeString}</escapeString>
+  <escapeWindowsPaths default-value="true">${maven.resources.escapeWindowsPaths}</escapeWindowsPaths>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project default-value="${project}"/>
+  <resources default-value="${project.resources}"/>
+  <session default-value="${session}"/>
+  <supportMultiLineFiltering default-value="false">${maven.resources.supportMultiLineFiltering}</supportMultiLineFiltering>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile (default-compile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <annotationProcessorPathsUseDepMgmt default-value="false"/>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <compilePath default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.compileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <createMissingPackageInfoClass default-value="true">${maven.compiler.createMissingPackageInfoClass}</createMissingPackageInfoClass>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debugFileName default-value="javac"/>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <enablePreview default-value="false">${maven.compiler.enablePreview}</enablePreview>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <failOnWarning default-value="false">${maven.compiler.failOnWarning}</failOnWarning>
+  <fileExtensions default-value="class,jar"/>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <forceLegacyJavacApi default-value="false">${maven.compiler.forceLegacyJavacApi}</forceLegacyJavacApi>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedSourcesDirectory default-value="${project.build.directory}/generated-sources/annotations"/>
+  <implicit>${maven.compiler.implicit}</implicit>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution default-value="${mojoExecution}"/>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.outputDirectory}">${maven.compiler.outputDirectory}</outputDirectory>
+  <outputTimestamp default-value="${project.build.outputTimestamp}"/>
+  <parameters default-value="false">${maven.compiler.parameters}</parameters>
+  <proc>${maven.compiler.proc}</proc>
+  <project default-value="${project}"/>
+  <projectArtifact default-value="${project.artifact}"/>
+  <release>${maven.compiler.release}</release>
+  <session default-value="${session}"/>
+  <showCompilationChanges default-value="false">${maven.compiler.showCompilationChanges}</showCompilationChanges>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="true">${maven.compiler.showWarnings}</showWarnings>
+  <skipMain>${maven.main.skip}</skipMain>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.8">17</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.8">17</target>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=2192600, ConflictMarker.markTime=88200, ConflictMarker.nodeCount=42, ConflictIdSorter.graphTime=960400, ConflictIdSorter.topsortTime=864300, ConflictIdSorter.conflictIdCount=23, ConflictIdSorter.conflictIdCycleCount=5, ConflictResolver.totalTime=4511500, ConflictResolver.conflictItemCount=34, DefaultDependencyCollector.collectTime=47138500, DefaultDependencyCollector.transformTime=13284900}
+[DEBUG] org.example:TelePorti:jar:1.0-SNAPSHOT
+[DEBUG]    com.mysql:mysql-connector-j:jar:8.0.33:compile
+[DEBUG]       com.google.protobuf:protobuf-java:jar:3.21.9:compile
+[DEBUG]    org.openjfx:javafx-controls:jar:17.0.10:compile
+[DEBUG]       org.openjfx:javafx-controls:jar:win:17.0.10:compile
+[DEBUG]       org.openjfx:javafx-graphics:jar:17.0.10:compile
+[DEBUG]          org.openjfx:javafx-graphics:jar:win:17.0.10:compile
+[DEBUG]          org.openjfx:javafx-base:jar:17.0.10:compile
+[DEBUG]             org.openjfx:javafx-base:jar:win:17.0.10:compile
+[DEBUG]    org.openjfx:javafx-fxml:jar:17.0.10:compile
+[DEBUG]       org.openjfx:javafx-fxml:jar:win:17.0.10:compile
+[DEBUG]    org.openjfx:javafx-swing:jar:17.0.10:compile
+[DEBUG]       org.openjfx:javafx-swing:jar:win:17.0.10:compile
+[DEBUG]    org.controlsfx:controlsfx:jar:11.2.1:compile
+[DEBUG]    org.kordamp.ikonli:ikonli-javafx:jar:12.3.1:compile
+[DEBUG]       org.kordamp.ikonli:ikonli-core:jar:12.3.1:compile
+[DEBUG]    org.kordamp.ikonli:ikonli-materialdesign2-pack:jar:12.3.1:compile
+[DEBUG]    org.kordamp.bootstrapfx:bootstrapfx-core:jar:0.4.0:compile
+[DEBUG]    org.junit.jupiter:junit-jupiter-api:jar:5.10.3:test
+[DEBUG]       org.opentest4j:opentest4j:jar:1.3.0:test
+[DEBUG]       org.junit.platform:junit-platform-commons:jar:1.10.3:test
+[DEBUG]       org.apiguardian:apiguardian-api:jar:1.1.2:test
+[DEBUG]    org.junit.jupiter:junit-jupiter-engine:jar:5.10.3:test
+[DEBUG]       org.junit.platform:junit-platform-engine:jar:1.10.3:test
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ TelePorti ---
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for apache.snapshots (http://people.apache.org/repo/m2-snapshot-repository).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for codehaus.snapshots (http://snapshots.repository.codehaus.org).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for snapshots (http://snapshots.maven.codehaus.org/maven2).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for central (http://repo1.maven.org/maven2).
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=238000, ConflictMarker.markTime=84400, ConflictMarker.nodeCount=77, ConflictIdSorter.graphTime=65400, ConflictIdSorter.topsortTime=19100, ConflictIdSorter.conflictIdCount=26, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=575700, ConflictResolver.conflictItemCount=74, DefaultDependencyCollector.collectTime=82495300, DefaultDependencyCollector.transformTime=1030700}
+[DEBUG] org.apache.maven.plugins:maven-resources-plugin:jar:2.6
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6:compile
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.0.6:compile
+[DEBUG]          org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.6:compile
+[DEBUG]       commons-cli:commons-cli:jar:1.0:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]       classworlds:classworlds:jar:1.1:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-settings:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-model:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-monitor:jar:2.0.6:compile
+[DEBUG]    org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]       junit:junit:jar:3.8.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:2.0.5:compile
+[DEBUG]    org.apache.maven.shared:maven-filtering:jar:1.1:compile
+[DEBUG]       org.sonatype.plexus:plexus-build-api:jar:0.0.4:compile
+[DEBUG]    org.codehaus.plexus:plexus-interpolation:jar:1.13:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG]   Included: org.apache.maven.plugins:maven-resources-plugin:jar:2.6
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.0.5
+[DEBUG]   Included: org.apache.maven.shared:maven-filtering:jar:1.1
+[DEBUG]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.13
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.6:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.6, parent: java.net.URLClassLoader@15327b79]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.6:resources' with basic configurator -->
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = C:\Users\moham\OneDrive\Desktop\GUI_Project\target\classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: org.example:TelePorti:1.0-SNAPSHOT @ C:\Users\moham\OneDrive\Desktop\GUI_Project\pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: C:\Users\moham\OneDrive\Desktop\GUI_Project\src\main\resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@9d1a267
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used {env.TERM=xterm, env.NUMBER_OF_PROCESSORS=16, env.USERPROFILE=C:\Users\moham, java.specification.version=17, sun.cpu.isalist=amd64, sun.arch.data.model=64, env.PROGRAMW6432=C:\Program Files, env.GIT_PAGER=cat, java.vendor.url=https://adoptium.net/, env.OS=Windows_NT, sun.boot.library.path=C:\Program Files\Eclipse Adoptium\jdk-17.0.16.8-hotspot\bin, sun.java.command=org.apache.maven.wrapper.MavenWrapperMain compile -X, env.WRAPPER_JAR="C:\Users\moham\OneDrive\Desktop\GUI_Project\.mvn\wrapper\maven-wrapper.jar", env.SYSTEMROOT=C:\WINDOWS, jdk.debug=release, maven.version=3.8.5, java.specification.vendor=Oracle Corporation, java.version.date=2025-07-15, java.home=C:\Program Files\Eclipse Adoptium\jdk-17.0.16.8-hotspot, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, env.RLSSVCPORT=22112, env.LOCALAPPDATA=C:\Users\moham\AppData\Local, env.USERDOMAIN_ROAMINGPROFILE=HAMZA, env.DISABLE_AUTO_UPDATE=true, user.script=, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=17.0.16+8, env.PATH=C:\Program Files\Eclipse Adoptium\jdk-17.0.16.8-hotspot\bin;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Users\moham\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-24.0.1\bin;C:\oracle\ords\bin;C:\sqlite;C:\Program Files\Eclipse Adoptium\jdk-17.0.16.8-hotspot\bin;C:\Users\moham\AppData\Local\Android\Sdk\platform-tools;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\moham\AppData\Local\Microsoft\WindowsApps;C:\Users\moham\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\moham\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts;C:\Users\moham\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.2\bin, env.PUBLIC=C:\Users\Public, env.EXEC_DIR=C:\Users\moham\OneDrive\Desktop\GUI_Project, env.COMMONPROGRAMW6432=C:\Program Files\Common Files, file.encoding=Cp1252, java.vendor.version=Temurin-17.0.16+8, env.COMPUTERNAME=HAMZA, env.HOMEPATH=\Users\moham, env.HISTCONTROL=ignorespace, env.APPDATA=C:\Users\moham\AppData\Roaming, java.io.tmpdir=C:\Users\moham\AppData\Local\Temp\, java.version=17.0.16, java.vm.specification.name=Java Virtual Machine Specification, native.encoding=Cp1252, java.library.path=C:\Program Files\Eclipse Adoptium\jdk-17.0.16.8-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Eclipse Adoptium\jdk-17.0.16.8-hotspot\bin;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Users\moham\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-24.0.1\bin;C:\oracle\ords\bin;C:\sqlite;C:\Program Files\Eclipse Adoptium\jdk-17.0.16.8-hotspot\bin;C:\Users\moham\AppData\Local\Android\Sdk\platform-tools;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\moham\AppData\Local\Microsoft\WindowsApps;C:\Users\moham\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\moham\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts;C:\Users\moham\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.2\bin;., java.vendor=Eclipse Adoptium, env.ERROR_CODE=0, java.specification.maintenance.version=1, classworlds.conf=C:\Users\moham\.m2\wrapper\dists\apache-maven-3.8.5-bin\5i5jha092a3i37g0paqnfr15e0\apache-maven-3.8.5\bin\m2.conf, env.BASH_SILENCE_DEPRECATION_WARNING=1, sun.io.unicode.encoding=UnicodeLittle, env.FIG_TERM=1, env.INTELLIJ_TERMINAL_COMMAND_BLOCKS=1, env.MAVEN_JAVA_EXE="C:\Program Files\Eclipse Adoptium\jdk-17.0.16.8-hotspot\bin\java.exe", java.vm.specification.version=17, os.name=Windows 11, junit.version=5.10.3, env.DOWNLOAD_URL=https://repo.maven.apache.org/maven2/org/apache/maven/wrapper/maven-wrapper/3.1.0/maven-wrapper-3.1.0.jar, env.=::=::\, env.SAVEHIST=0, user.home=C:\Users\moham, env.ALLUSERSPROFILE=C:\ProgramData, env.SESSIONNAME=Console, path.separator=;, os.version=10.0, env.PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL, java.vm.name=OpenJDK 64-Bit Server VM, env.USERNAME=moham, os.arch=amd64, env.HISTFILESIZE=0, maven.multiModuleProjectDirectory=C:\Users\moham\OneDrive\Desktop\GUI_Project, env.PROMPT_COMMAND=printf '', env.MAVEN_PROJECTBASEDIR=C:\Users\moham\OneDrive\Desktop\GUI_Project, java.vm.info=mixed mode, sharing, env.TEMP=C:\Users\moham\AppData\Local\Temp, java.class.version=61.0, env.ONEDRIVE=C:\Users\moham\OneDrive, env.WRAPPER_LAUNCHER=org.apache.maven.wrapper.MavenWrapperMain, sun.jnu.encoding=Cp1252, env.TERMINAL_EMULATOR=JetBrains-JediTerm, env.PROCESS_LAUNCHED_BY_CW=1, maven.build.version=Apache Maven 3.8.5 (3599d3414f046de2324203b78ddcf9b5e4388aa0), maven.home=C:\Users\moham\.m2\wrapper\dists\apache-maven-3.8.5-bin\5i5jha092a3i37g0paqnfr15e0\apache-maven-3.8.5, sun.stderr.encoding=cp437, env.JAVA_HOME=C:\Program Files\Eclipse Adoptium\jdk-17.0.16.8-hotspot, env.PROGRAMFILES=C:\Program Files, file.separator=\, java.vm.compressedOopsMode=Zero based, line.separator=
+, sun.stdout.encoding=cp437, env.PROMPT=$P$G, env.EFC_10484_1592913036=1, env.MARKER_JUNIE_TERMINAL=true, env.PROCESSOR_REVISION=9a03, env.PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 154 Stepping 3, GenuineIntel, env.PROGRAMDATA=C:\ProgramData, user.name=moham, env.PROCESS_LAUNCHED_BY_Q=1, env.DRIVERDATA=C:\Windows\System32\Drivers\DriverData, env.TERM_SESSION_ID=3f8f844f-64ad-49cc-ab9b-af3d34ae57da, env.SYSTEMDRIVE=C:, env.PROGRAMFILES(X86)=C:\Program Files (x86), env.PROCESSOR_LEVEL=6, env.HOMEDRIVE=C:, env.PSMODULEPATH=C:\Users\moham\OneDrive\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules, env.TMP=C:\Users\moham\AppData\Local\Temp, env.ANDROID_HOME=C:\Users\moham\AppData\Local\Android\Sdk, sun.os.patch.level=, env.LOGONSERVER=\\HAMZA, env.WINDIR=C:\WINDOWS, env.ACSETUPSVCPORT=23210, java.class.path=C:\Users\moham\OneDrive\Desktop\GUI_Project\.mvn\wrapper\maven-wrapper.jar, env.HOME=C:\Users\moham, java.vm.vendor=Eclipse Adoptium, env.PROCESSOR_ARCHITECTURE=AMD64, user.variant=, env.COMMONPROGRAMFILES=C:\Program Files\Common Files, maven.conf=C:\Users\moham\.m2\wrapper\dists\apache-maven-3.8.5-bin\5i5jha092a3i37g0paqnfr15e0\apache-maven-3.8.5/conf, env.IGCCSVC_DB=AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAALEbsOqWVkUm/PdBUsgx5zAQAAAACAAAAAAAQZgAAAAEAACAAAAAhPQVVBhPHYn61aToUDt/yoVYfNW1gbkdUGJvpRBga3QAAAAAOgAAAAAIAACAAAABVK6lb0q5ewqwYPK7IBhmxNnWAZHpuf52+SG58NiQsSWAAAACBv9iPwu0wU4GQu7hwZdhghlQcDAafNVSyV+NMt898QRDop1gBReYm+klq5MwNdLzcuu/jMctmN+xUKX34AqfNht14+I/NmwQ1+tiqO1tL6Ny0f/ooCYPL7q7K1JsHhSNAAAAAnpGk1sUwi7ssX9lgiDOTv3za1awKVot/nxR+TRVhU1d4i2XcXrfxFNhvh8i54QN+7kxQ9vGIZwuzwlKcKn0Wcw==, sun.java.launcher=SUN_STANDARD, user.country=US, env.HISTFILE=, env.USERDOMAIN=HAMZA, env.COMSPEC=C:\WINDOWS\system32\cmd.exe, sun.cpu.endian=little, user.language=en, env.PSEXECUTIONPOLICYPREFERENCE=Bypass, env.ACSVCPORT=17532, env.INTELLIJ IDEA=C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.2\bin, env.WDIR=C:\Users\moham\OneDrive\Desktop\GUI_Project, env.=C:=C:\Users\moham\OneDrive\Desktop\GUI_Project, java.runtime.name=OpenJDK Runtime Environment, project.build.sourceEncoding=UTF-8, env.PT8HOME=C:\Program Files\Cisco Packet Tracer 8.2.2, env.COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files, env.ZES_ENABLE_SYSMAN=1, env.MAVEN_CMD_LINE_ARGS=compile -X, java.vendor.url.bug=https://github.com/adoptium/adoptium-support/issues, user.dir=C:\Users\moham\OneDrive\Desktop\GUI_Project, java.vm.version=17.0.16+8}
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[DEBUG] resource with targetPath null
+directory C:\Users\moham\OneDrive\Desktop\GUI_Project\src\main\resources
+excludes []
+includes []
+[DEBUG] ignoreDelta true
+[INFO] Copying 29 resources
+[DEBUG] file background.png has a non filtered file extension
+[DEBUG] copy C:\Users\moham\OneDrive\Desktop\GUI_Project\src\main\resources\org\example\teleporti\Images\background.png to C:\Users\moham\OneDrive\Desktop\GUI_Project\target\classes\org\example\teleporti\Images\background.png
+[DEBUG] file logo.png has a non filtered file extension
+[DEBUG] copy C:\Users\moham\OneDrive\Desktop\GUI_Project\src\main\resources\org\example\teleporti\Images\logo.png to C:\Users\moham\OneDrive\Desktop\GUI_Project\target\classes\org\example\teleporti\Images\logo.png
+[DEBUG] file Trip_history.png has a non filtered file extension
+[DEBUG] copy C:\Users\moham\OneDrive\Desktop\GUI_Project\src\main\resources\org\example\teleporti\Images\Trip_history.png to C:\Users\moham\OneDrive\Desktop\GUI_Project\target\classes\org\example\teleporti\Images\Trip_history.png
+[DEBUG] file user.png has a non filtered file extension
+[DEBUG] copy C:\Users\moham\OneDrive\Desktop\GUI_Project\src\main\resources\org\example\teleporti\Images\user.png to C:\Users\moham\OneDrive\Desktop\GUI_Project\target\classes\org\example\teleporti\Images\user.png
+[DEBUG] file Auth.css has a filtered file extension
+[DEBUG] copy C:\Users\moham\OneDrive\Desktop\GUI_Project\src\main\resources\org\example\teleporti\Styles\Auth.css to C:\Users\moham\OneDrive\Desktop\GUI_Project\target\classes\org\example\teleporti\Styles\Auth.css
+[DEBUG] file General.css has a filtered file extension
+[DEBUG] copy C:\Users\moham\OneDrive\Desktop\GUI_Project\src\main\resources\org\example\teleporti\Styles\General.css to C:\Users\moham\OneDrive\Desktop\GUI_Project\target\classes\org\example\teleporti\Styles\General.css
+[DEBUG] file Modals.css has a filtered file extension
+[DEBUG] copy C:\Users\moham\OneDrive\Desktop\GUI_Project\src\main\resources\org\example\teleporti\Styles\Modals.css to C:\Users\moham\OneDrive\Desktop\GUI_Project\target\classes\org\example\teleporti\Styles\Modals.css
+[DEBUG] file Styles.css has a filtered file extension
+[DEBUG] copy C:\Users\moham\OneDrive\Desktop\GUI_Project\src\main\resources\org\example\teleporti\Styles\Styles.css to C:\Users\moham\OneDrive\Desktop\GUI_Project\target\classes\org\example\teleporti\Styles\Styles.css
+[DEBUG] file dashboard-view.fxml has a filtered file extension
+[DEBUG] copy C:\Users\moham\OneDrive\Desktop\GUI_Project\src\main\resources\org\example\teleporti\Views\dashboard-view.fxml to C:\Users\moham\OneDrive\Desktop\GUI_Project\target\classes\org\example\teleporti\Views\dashboard-view.fxml
+[DEBUG] file drivers-view.fxml has a filtered file extension
+[DEBUG] copy C:\Users\moham\OneDrive\Desktop\GUI_Project\src\main\resources\org\example\teleporti\Views\drivers-view.fxml to C:\Users\moham\OneDrive\Desktop\GUI_Project\target\classes\org\example\teleporti\Views\drivers-view.fxml
+[DEBUG] file history-view.fxml has a filtered file extension
+[DEBUG] copy C:\Users\moham\OneDrive\Desktop\GUI_Project\src\main\resources\org\example\teleporti\Views\history-view.fxml to C:\Users\moham\OneDrive\Desktop\GUI_Project\target\classes\org\example\teleporti\Views\history-view.fxml
+[DEBUG] file login-view.fxml has a filtered file extension
+[DEBUG] copy C:\Users\moham\OneDrive\Desktop\GUI_Project\src\main\resources\org\example\teleporti\Views\login-view.fxml to C:\Users\moham\OneDrive\Desktop\GUI_Project\target\classes\org\example\teleporti\Views\login-view.fxml
+[DEBUG] file maps-view.fxml has a filtered file extension
+[DEBUG] copy C:\Users\moham\OneDrive\Desktop\GUI_Project\src\main\resources\org\example\teleporti\Views\maps-view.fxml to C:\Users\moham\OneDrive\Desktop\GUI_Project\target\classes\org\example\teleporti\Views\maps-view.fxml
+[DEBUG] file messages-view.fxml has a filtered file extension
+[DEBUG] copy C:\Users\moham\OneDrive\Desktop\GUI_Project\src\main\resources\org\example\teleporti\Views\messages-view.fxml to C:\Users\moham\OneDrive\Desktop\GUI_Project\target\classes\org\example\teleporti\Views\messages-view.fxml
+[DEBUG] file add-modal.fxml has a filtered file extension
+[DEBUG] copy C:\Users\moham\OneDrive\Desktop\GUI_Project\src\main\resources\org\example\teleporti\Views\Modals\add-modal.fxml to C:\Users\moham\OneDrive\Desktop\GUI_Project\target\classes\org\example\teleporti\Views\Modals\add-modal.fxml
+[DEBUG] file delete-modal.fxml has a filtered file extension
+[DEBUG] copy C:\Users\moham\OneDrive\Desktop\GUI_Project\src\main\resources\org\example\teleporti\Views\Modals\delete-modal.fxml to C:\Users\moham\OneDrive\Desktop\GUI_Project\target\classes\org\example\teleporti\Views\Modals\delete-modal.fxml
+[DEBUG] file edit-reservation-modal.fxml has a filtered file extension
+[DEBUG] copy C:\Users\moham\OneDrive\Desktop\GUI_Project\src\main\resources\org\example\teleporti\Views\Modals\edit-reservation-modal.fxml to C:\Users\moham\OneDrive\Desktop\GUI_Project\target\classes\org\example\teleporti\Views\Modals\edit-reservation-modal.fxml
+[DEBUG] file edit-trajet-modal.fxml has a filtered file extension
+[DEBUG] copy C:\Users\moham\OneDrive\Desktop\GUI_Project\src\main\resources\org\example\teleporti\Views\Modals\edit-trajet-modal.fxml to C:\Users\moham\OneDrive\Desktop\GUI_Project\target\classes\org\example\teleporti\Views\Modals\edit-trajet-modal.fxml
+[DEBUG] file edit-user-modal.fxml has a filtered file extension
+[DEBUG] copy C:\Users\moham\OneDrive\Desktop\GUI_Project\src\main\resources\org\example\teleporti\Views\Modals\edit-user-modal.fxml to C:\Users\moham\OneDrive\Desktop\GUI_Project\target\classes\org\example\teleporti\Views\Modals\edit-user-modal.fxml
+[DEBUG] file error-modal.fxml has a filtered file extension
+[DEBUG] copy C:\Users\moham\OneDrive\Desktop\GUI_Project\src\main\resources\org\example\teleporti\Views\Modals\error-modal.fxml to C:\Users\moham\OneDrive\Desktop\GUI_Project\target\classes\org\example\teleporti\Views\Modals\error-modal.fxml
+[DEBUG] file style.css has a filtered file extension
+[DEBUG] copy C:\Users\moham\OneDrive\Desktop\GUI_Project\src\main\resources\org\example\teleporti\Views\Modals\style.css to C:\Users\moham\OneDrive\Desktop\GUI_Project\target\classes\org\example\teleporti\Views\Modals\style.css
+[DEBUG] file profile-view.fxml has a filtered file extension
+[DEBUG] copy C:\Users\moham\OneDrive\Desktop\GUI_Project\src\main\resources\org\example\teleporti\Views\profile-view.fxml to C:\Users\moham\OneDrive\Desktop\GUI_Project\target\classes\org\example\teleporti\Views\profile-view.fxml
+[DEBUG] file register-view.fxml has a filtered file extension
+[DEBUG] copy C:\Users\moham\OneDrive\Desktop\GUI_Project\src\main\resources\org\example\teleporti\Views\register-view.fxml to C:\Users\moham\OneDrive\Desktop\GUI_Project\target\classes\org\example\teleporti\Views\register-view.fxml
+[DEBUG] file reservations-view.fxml has a filtered file extension
+[DEBUG] copy C:\Users\moham\OneDrive\Desktop\GUI_Project\src\main\resources\org\example\teleporti\Views\reservations-view.fxml to C:\Users\moham\OneDrive\Desktop\GUI_Project\target\classes\org\example\teleporti\Views\reservations-view.fxml
+[DEBUG] file stats-view.fxml has a filtered file extension
+[DEBUG] copy C:\Users\moham\OneDrive\Desktop\GUI_Project\src\main\resources\org\example\teleporti\Views\stats-view.fxml to C:\Users\moham\OneDrive\Desktop\GUI_Project\target\classes\org\example\teleporti\Views\stats-view.fxml
+[DEBUG] file style.css has a filtered file extension
+[DEBUG] copy C:\Users\moham\OneDrive\Desktop\GUI_Project\src\main\resources\org\example\teleporti\Views\style.css to C:\Users\moham\OneDrive\Desktop\GUI_Project\target\classes\org\example\teleporti\Views\style.css
+[DEBUG] file trajets-view.fxml has a filtered file extension
+[DEBUG] copy C:\Users\moham\OneDrive\Desktop\GUI_Project\src\main\resources\org\example\teleporti\Views\trajets-view.fxml to C:\Users\moham\OneDrive\Desktop\GUI_Project\target\classes\org\example\teleporti\Views\trajets-view.fxml
+[DEBUG] file user-view.fxml has a filtered file extension
+[DEBUG] copy C:\Users\moham\OneDrive\Desktop\GUI_Project\src\main\resources\org\example\teleporti\Views\user-view.fxml to C:\Users\moham\OneDrive\Desktop\GUI_Project\target\classes\org\example\teleporti\Views\user-view.fxml
+[DEBUG] file users-view.fxml has a filtered file extension
+[DEBUG] copy C:\Users\moham\OneDrive\Desktop\GUI_Project\src\main\resources\org\example\teleporti\Views\users-view.fxml to C:\Users\moham\OneDrive\Desktop\GUI_Project\target\classes\org\example\teleporti\Views\users-view.fxml
+[DEBUG] no use filter components
+[INFO]
+[INFO] --- maven-compiler-plugin:3.13.0:compile (default-compile) @ TelePorti ---
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=184400, ConflictMarker.markTime=32900, ConflictMarker.nodeCount=22, ConflictIdSorter.graphTime=17500, ConflictIdSorter.topsortTime=12600, ConflictIdSorter.conflictIdCount=14, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=212800, ConflictResolver.conflictItemCount=22, DefaultDependencyCollector.collectTime=73499700, DefaultDependencyCollector.transformTime=482200}
+[DEBUG] org.apache.maven.plugins:maven-compiler-plugin:jar:3.13.0
+[DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:3.4.2:compile
+[DEBUG]       org.slf4j:slf4j-api:jar:1.7.36:compile
+[DEBUG]       commons-io:commons-io:jar:2.11.0:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-incremental:jar:1.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-java:jar:1.2.0:compile
+[DEBUG]       org.ow2.asm:asm:jar:9.6:compile
+[DEBUG]       com.thoughtworks.qdox:qdox:jar:2.0.3:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-api:jar:2.15.0:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-manager:jar:2.15.0:compile
+[DEBUG]       javax.inject:javax.inject:jar:1:compile
+[DEBUG]       org.codehaus.plexus:plexus-xml:jar:3.0.0:compile (version managed from default)
+[DEBUG]    org.codehaus.plexus:plexus-compiler-javac:jar:2.15.0:runtime
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:4.0.0:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.13.0
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.13.0
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.13.0
+[DEBUG]   Included: org.apache.maven.plugins:maven-compiler-plugin:jar:3.13.0
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:3.4.2
+[DEBUG]   Included: commons-io:commons-io:jar:2.11.0
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-incremental:jar:1.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-java:jar:1.2.0
+[DEBUG]   Included: org.ow2.asm:asm:jar:9.6
+[DEBUG]   Included: com.thoughtworks.qdox:qdox:jar:2.0.3
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-api:jar:2.15.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-manager:jar:2.15.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-xml:jar:3.0.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-javac:jar:2.15.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:4.0.0
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.13.0, parent: java.net.URLClassLoader@15327b79]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile' with basic configurator -->
+[DEBUG]   (f) annotationProcessorPathsUseDepMgmt = false
+[DEBUG]   (f) basedir = C:\Users\moham\OneDrive\Desktop\GUI_Project
+[DEBUG]   (f) buildDirectory = C:\Users\moham\OneDrive\Desktop\GUI_Project\target
+[DEBUG]   (f) compilePath = [C:\Users\moham\OneDrive\Desktop\GUI_Project\target\classes, C:\Users\moham\.m2\repository\com\mysql\mysql-connector-j\8.0.33\mysql-connector-j-8.0.33.jar, C:\Users\moham\.m2\repository\com\google\protobuf\protobuf-java\3.21.9\protobuf-java-3.21.9.jar, C:\Users\moham\.m2\repository\org\openjfx\javafx-controls\17.0.10\javafx-controls-17.0.10.jar, C:\Users\moham\.m2\repository\org\openjfx\javafx-controls\17.0.10\javafx-controls-17.0.10-win.jar, C:\Users\moham\.m2\repository\org\openjfx\javafx-graphics\17.0.10\javafx-graphics-17.0.10.jar, C:\Users\moham\.m2\repository\org\openjfx\javafx-graphics\17.0.10\javafx-graphics-17.0.10-win.jar, C:\Users\moham\.m2\repository\org\openjfx\javafx-base\17.0.10\javafx-base-17.0.10.jar, C:\Users\moham\.m2\repository\org\openjfx\javafx-base\17.0.10\javafx-base-17.0.10-win.jar, C:\Users\moham\.m2\repository\org\openjfx\javafx-fxml\17.0.10\javafx-fxml-17.0.10.jar, C:\Users\moham\.m2\repository\org\openjfx\javafx-fxml\17.0.10\javafx-fxml-17.0.10-win.jar, C:\Users\moham\.m2\repository\org\openjfx\javafx-swing\17.0.10\javafx-swing-17.0.10.jar, C:\Users\moham\.m2\repository\org\openjfx\javafx-swing\17.0.10\javafx-swing-17.0.10-win.jar, C:\Users\moham\.m2\repository\org\controlsfx\controlsfx\11.2.1\controlsfx-11.2.1.jar, C:\Users\moham\.m2\repository\org\kordamp\ikonli\ikonli-javafx\12.3.1\ikonli-javafx-12.3.1.jar, C:\Users\moham\.m2\repository\org\kordamp\ikonli\ikonli-core\12.3.1\ikonli-core-12.3.1.jar, C:\Users\moham\.m2\repository\org\kordamp\ikonli\ikonli-materialdesign2-pack\12.3.1\ikonli-materialdesign2-pack-12.3.1.jar, C:\Users\moham\.m2\repository\org\kordamp\bootstrapfx\bootstrapfx-core\0.4.0\bootstrapfx-core-0.4.0.jar]
+[DEBUG]   (f) compileSourceRoots = [C:\Users\moham\OneDrive\Desktop\GUI_Project\src\main\java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) createMissingPackageInfoClass = true
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) debugFileName = javac
+[DEBUG]   (f) enablePreview = false
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) failOnWarning = false
+[DEBUG]   (f) fileExtensions = [jar, class]
+[DEBUG]   (f) forceJavacCompilerUse = false
+[DEBUG]   (f) forceLegacyJavacApi = false
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedSourcesDirectory = C:\Users\moham\OneDrive\Desktop\GUI_Project\target\generated-sources\annotations
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile {execution: default-compile}
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = C:\Users\moham\OneDrive\Desktop\GUI_Project\target\classes
+[DEBUG]   (f) parameters = false
+[DEBUG]   (f) project = MavenProject: org.example:TelePorti:1.0-SNAPSHOT @ C:\Users\moham\OneDrive\Desktop\GUI_Project\pom.xml
+[DEBUG]   (f) projectArtifact = org.example:TelePorti:jar:1.0-SNAPSHOT
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@9d1a267
+[DEBUG]   (f) showCompilationChanges = false
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = true
+[DEBUG]   (f) skipMultiThreadWarning = false
+[DEBUG]   (f) source = 17
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (s) target = 17
+[DEBUG]   (f) useIncrementalCompilation = true
+[DEBUG]   (f) verbose = false
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Adding C:\Users\moham\OneDrive\Desktop\GUI_Project\target\generated-sources\annotations to compile source roots:
+  C:\Users\moham\OneDrive\Desktop\GUI_Project\src\main\java
+[DEBUG] New compile source roots:
+  C:\Users\moham\OneDrive\Desktop\GUI_Project\src\main\java
+  C:\Users\moham\OneDrive\Desktop\GUI_Project\target\generated-sources\annotations
+[DEBUG] CompilerReuseStrategy: reuseCreated
+[DEBUG] useIncrementalCompilation enabled
+[WARNING] ****************************************************************************************************************************************************
+[WARNING] * Required filename-based automodules detected: [mysql-connector-j-8.0.33.jar]. Please don't publish this project to a public artifact repository! *
+[WARNING] ****************************************************************************************************************************************************
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.774 s
+[INFO] Finished at: 2026-02-07T16:41:12+01:00
+[INFO] ------------------------------------------------------------------------

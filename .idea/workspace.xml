@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a7446c88-f259-41ae-b7b6-73e98c4da351" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/teleporti/Images/Trip_history.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/teleporti/Images/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/teleporti/Images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/teleporti/Images/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/teleporti/Styles/Auth.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/teleporti/Styles/General.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/teleporti/Styles/Modals.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/teleporti/Styles/Styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/teleporti/Views/Modals/add-modal.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/teleporti/Views/Modals/delete-modal.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/teleporti/Views/Modals/edit-reservation-modal.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/teleporti/Views/Modals/edit-trajet-modal.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/teleporti/Views/Modals/edit-user-modal.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/teleporti/Views/Modals/error-modal.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/teleporti/Views/Modals/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/teleporti/Views/dashboard-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/teleporti/Views/drivers-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/teleporti/Views/history-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/teleporti/Views/login-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/teleporti/Views/maps-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/teleporti/Views/messages-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/teleporti/Views/profile-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/teleporti/Views/register-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/teleporti/Views/reservations-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/teleporti/Views/stats-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/teleporti/Views/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/teleporti/Views/trajets-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/teleporti/Views/user-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/teleporti/Views/users-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gui_project/Controllers/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/teleporti/Controllers/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gui_project/Controllers/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/teleporti/Controllers/MessageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gui_project/Controllers/ReservationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/teleporti/Controllers/ReservationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gui_project/Controllers/TrajetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/teleporti/Controllers/TrajetController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gui_project/Controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/teleporti/Controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gui_project/Entities/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/teleporti/Entities/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gui_project/Entities/Reservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/teleporti/Entities/Reservation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gui_project/Entities/Trajet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/teleporti/Entities/Trajet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gui_project/Entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/teleporti/Entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gui_project/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gui_project/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/teleporti/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gui_project/SceneControllers/AddModalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/teleporti/SceneControllers/AddModalController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gui_project/SceneControllers/DashboardViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/teleporti/SceneControllers/DashboardViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gui_project/SceneControllers/DeleteModalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/teleporti/SceneControllers/DeleteModalController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gui_project/SceneControllers/DriversViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/teleporti/SceneControllers/DriversViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gui_project/SceneControllers/EditReservationModalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/teleporti/SceneControllers/EditReservationModalController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gui_project/SceneControllers/EditTrajetModalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/teleporti/SceneControllers/EditTrajetModalController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gui_project/SceneControllers/EditUserModalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/teleporti/SceneControllers/EditUserModalController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gui_project/SceneControllers/ErrorModalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/teleporti/SceneControllers/ErrorModalController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gui_project/SceneControllers/HistoryViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/teleporti/SceneControllers/HistoryViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gui_project/SceneControllers/LoginViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/teleporti/SceneControllers/LoginViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gui_project/SceneControllers/MapsViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/teleporti/SceneControllers/MapsViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gui_project/SceneControllers/MessagesViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/teleporti/SceneControllers/MessagesViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gui_project/SceneControllers/ProfileViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/teleporti/SceneControllers/ProfileViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gui_project/SceneControllers/ReservationsViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/teleporti/SceneControllers/ReservationsViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gui_project/SceneControllers/SignupViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/teleporti/SceneControllers/SignupViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gui_project/SceneControllers/StatsViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/teleporti/SceneControllers/StatsViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gui_project/SceneControllers/TrajetsViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/teleporti/SceneControllers/TrajetsViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gui_project/SceneControllers/UserViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/teleporti/SceneControllers/UserViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gui_project/SceneControllers/UsersViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/teleporti/SceneControllers/UsersViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gui_project/Services/Auth/IServiceAuth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/teleporti/Services/Auth/IServiceAuth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gui_project/Services/Auth/ServiceAuth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/teleporti/Services/Auth/ServiceAuth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gui_project/Services/Message/IServiceMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/teleporti/Services/Message/IServiceMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gui_project/Services/Message/ServiceMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/teleporti/Services/Message/ServiceMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gui_project/Services/Reservation/IServiceReservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/teleporti/Services/Reservation/IServiceReservation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gui_project/Services/Reservation/ServiceReservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/teleporti/Services/Reservation/ServiceReservation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gui_project/Services/Trajet/IServiceTrajet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/teleporti/Services/Trajet/IServiceTrajet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gui_project/Services/Trajet/ServiceTrajet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/teleporti/Services/Trajet/ServiceTrajet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gui_project/Services/User/IServiceUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/teleporti/Services/User/IServiceUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gui_project/Services/User/ServiceUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/teleporti/Services/User/ServiceUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gui_project/Utils/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/teleporti/Utils/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gui_project/Utils/DatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/teleporti/Utils/DatabaseConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gui_project/Utils/EmailVerification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/teleporti/Utils/EmailVerification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gui_project/Utils/Router.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/teleporti/Utils/Router.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gui_project/Utils/classes/Conversation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/teleporti/Utils/classes/Conversation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/gui_project/hello-view.fxml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="39XdGYt6UPrrbBm3YQoJToaYAeS" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.MainApplication.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/moham/OneDrive/Desktop/GUI_Project/pom.xml",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "settings.sync",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="TelePorti" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="TelePorti" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.30387.90" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.30387.90" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a7446c88-f259-41ae-b7b6-73e98c4da351" name="Changes" comment="" />
+      <created>1770846254926</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1770846254926</updated>
+      <workItem from="1770846257250" duration="8000" />
+      <workItem from="1770846287215" duration="348000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml"
+            xmlns="http://javafx.com/javafx"
+            stylesheets="@style.css"
+            fx:controller="org.example.teleporti.SceneControllers.EditUserModalController">
+
+    <VBox fx:id="userForm" alignment="CENTER" spacing="20.0" styleClass="tp-card" AnchorPane.topAnchor="20" AnchorPane.leftAnchor="20" AnchorPane.rightAnchor="20">
+        <padding><Insets top="20" right="20" bottom="20" left="20"/></padding>
+        <Label style="-fx-font-size: 22px; -fx-font-weight: bold; -fx-text-fill: -tp-primary;" text="Modifier le Profil"/>
+        
+        <GridPane hgap="15" vgap="15">
+             <VBox spacing="5" GridPane.rowIndex="0" GridPane.columnIndex="0">
+                 <Label text="Prénom" style="-fx-font-weight: bold;"/>
+                 <TextField fx:id="prenomField" promptText="Prénom"/>
+             </VBox>
+             <VBox spacing="5" GridPane.rowIndex="0" GridPane.columnIndex="1">
+                 <Label text="Nom" style="-fx-font-weight: bold;"/>
+                 <TextField fx:id="nomField" promptText="Nom"/>
+             </VBox>
+             
+             <VBox spacing="5" GridPane.rowIndex="1" GridPane.columnIndex="0" GridPane.columnSpan="2">
+                 <Label text="Email" style="-fx-font-weight: bold;"/>
+                 <TextField fx:id="emailField" promptText="Email"/>
+             </VBox>
+             
+             <VBox spacing="5" GridPane.rowIndex="2" GridPane.columnIndex="0">
+                 <Label text="Mot de passe" style="-fx-font-weight: bold;"/>
+                 <TextField fx:id="passwordField" promptText="Mot de passe"/>
+             </VBox>
+             <VBox spacing="5" GridPane.rowIndex="2" GridPane.columnIndex="1">
+                 <Label text="Type" style="-fx-font-weight: bold;"/>
+                 <MenuButton fx:id="typeField" text="Sélectionner Type" maxWidth="Infinity"/>
+             </VBox>
+             
+             <VBox spacing="5" GridPane.rowIndex="3" GridPane.columnIndex="0">
+                 <Label text="Âge" style="-fx-font-weight: bold;"/>
+                 <TextField fx:id="ageField" promptText="Âge"/>
+             </VBox>
+             <VBox spacing="5" GridPane.rowIndex="3" GridPane.columnIndex="1">
+                 <Label text="Gouvernorat" style="-fx-font-weight: bold;"/>
+                 <MenuButton fx:id="governeratField" text="Gouvernorat" maxWidth="Infinity"/>
+             </VBox>
+             
+             <VBox spacing="5" GridPane.rowIndex="4" GridPane.columnIndex="0">
+                 <Label text="Ville" style="-fx-font-weight: bold;"/>
+                 <TextField fx:id="villeField" promptText="Ville"/>
+             </VBox>
+             <VBox spacing="5" GridPane.rowIndex="4" GridPane.columnIndex="1">
+                 <Label text="Téléphone" style="-fx-font-weight: bold;"/>
+                 <TextField fx:id="telephoneField" promptText="Téléphone"/>
+             </VBox>
+             
+             <VBox spacing="5" GridPane.rowIndex="5" GridPane.columnIndex="0" GridPane.columnSpan="2">
+                 <Label text="Adresse" style="-fx-font-weight: bold;"/>
+                 <TextField fx:id="addressField" promptText="Adresse"/>
+             </VBox>
+        </GridPane>
+
+        <HBox alignment="CENTER" spacing="15.0">
+            <Button styleClass="button-primary" text="Sauvegarder" onAction="#onSave" prefWidth="150" prefHeight="40"/>
+            <Button styleClass="button-primary" text="Annuler" onAction="#onCancel" prefWidth="150" prefHeight="40" style="-fx-background-color: #94a3b8;"/>
+        </HBox>
+    </VBox>
+
+</AnchorPane>

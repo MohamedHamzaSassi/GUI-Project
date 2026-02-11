@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- login-view.fxml -->
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.geometry.Insets?>
+
+<HBox xmlns:fx="http://javafx.com/fxml" alignment="CENTER" spacing="40.0"
+      stylesheets="@style.css"
+      styleClass="main-container"
+      fx:controller="org.example.teleporti.SceneControllers.LoginViewController">
+    
+    <padding>
+        <Insets top="40" right="40" bottom="40" left="40"/>
+    </padding>
+
+    <VBox spacing="15.0" alignment="CENTER">
+        <Label text="TelePorti" style="-fx-font-size: 48px; -fx-font-weight: bold; -fx-text-fill: -tp-primary;"/>
+        <Label text="Eco-Tech Carpooling" style="-fx-font-size: 18px; -fx-text-fill: -tp-accent;"/>
+        <ImageView fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+            <Image url="@../Images/logo.png"/>
+        </ImageView>
+    </VBox>
+
+    <VBox styleClass="tp-card" spacing="20.0" alignment="CENTER_LEFT" minWidth="400">
+        <Label text="Bienvenue" style="-fx-font-size: 24px; -fx-font-weight: bold; -fx-text-fill: -tp-primary;"/>
+        <Label text="Connectez-vous pour continuer" style="-fx-text-fill: -tp-text-secondary;"/>
+        
+        <VBox spacing="5.0">
+            <Label text="Email" style="-fx-font-weight: bold;"/>
+            <TextField fx:id="emailText" promptText="votre@email.com" styleClass="text-field"/>
+        </VBox>
+        
+        <VBox spacing="5.0">
+            <Label text="Mot de passe" style="-fx-font-weight: bold;"/>
+            <PasswordField fx:id="passwordText" promptText="••••••••" styleClass="password-field"/>
+        </VBox>
+
+        <CheckBox fx:id="staySignedInCheckBox" text="Rester connecté"/>
+        
+        <Label styleClass="error-text" fx:id="errorText" style="-fx-text-fill: #ef4444;"/>
+        
+        <Button styleClass="button-primary" text="Se connecter" onAction="#onFormSubmit" maxWidth="Infinity" prefHeight="45"/>
+        
+        <HBox spacing="5.0" alignment="CENTER">
+            <Label text="Pas encore de compte ?" style="-fx-text-fill: -tp-text-secondary;"/>
+            <Hyperlink text="Inscrivez-vous" onAction="#goToSignup" style="-fx-text-fill: -tp-accent; -fx-font-weight: bold;"/>
+        </HBox>
+    </VBox>
+
+</HBox>

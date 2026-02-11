@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.example.teleporti.SceneControllers.UserViewController"
+            stylesheets="@style.css"
+            styleClass="main-container">
+
+    <left>
+        <VBox alignment="TOP_CENTER" spacing="15.0" styleClass="sidebar" prefWidth="200.0">
+            <padding>
+                <Insets top="20" right="10" bottom="20" left="10"/>
+            </padding>
+            <ImageView fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                <Image url="@../Images/logo.png"/>
+            </ImageView>
+            <Region prefHeight="20.0" />
+            <Button alignment="CENTER_LEFT" styleClass="button-primary" text="Profil" onAction="#onGoToProfile" maxWidth="Infinity"/>
+            <Button alignment="CENTER_LEFT" styleClass="button-primary" text="Chats" onAction="#onGoToMessages" maxWidth="Infinity"/>
+            <Region VBox.vgrow="ALWAYS" />
+            <Button alignment="CENTER" styleClass="button-primary" text="Déconnecter" onAction="#onLogout" maxWidth="Infinity" style="-fx-background-color: #ef4444;"/>
+        </VBox>
+    </left>
+
+    <center>
+        <VBox spacing="20.0">
+            <padding>
+                <Insets top="20" right="20" bottom="20" left="20"/>
+            </padding>
+            
+            <HBox alignment="CENTER_LEFT" spacing="15.0">
+                <Label text="Espace Utilisateur" style="-fx-font-size: 24px; -fx-font-weight: bold; -fx-text-fill: -tp-primary;"/>
+                <Region HBox.hgrow="ALWAYS" />
+                <Label fx:id="welcome" styleClass="welcome"/>
+            </HBox>
+
+            <HBox spacing="30.0" alignment="CENTER">
+                <VBox styleClass="tp-card" spacing="15.0" alignment="CENTER" prefWidth="250">
+                    <ImageView fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+                        <Image url="@../Images/user.png"/>
+                    </ImageView>
+                    <Label fx:id="nbrChauff" style="-fx-font-weight: bold;"/>
+                    <Button styleClass="button-primary" text="Voir les Chauffeurs" onAction="#onGoToDrivers" maxWidth="Infinity"/>
+                </VBox>
+                
+                <VBox styleClass="tp-card" spacing="15.0" alignment="CENTER" prefWidth="250">
+                    <ImageView fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+                        <Image url="@../Images/Trip_history.png"/>
+                    </ImageView>
+                    <Label text="Votre Historique" style="-fx-font-weight: bold;"/>
+                    <Button styleClass="button-primary" text="Voir l'Historique" onAction="#onGoToHistory" maxWidth="Infinity"/>
+                </VBox>
+            </HBox>
+        </VBox>
+    </center>
+</BorderPane>

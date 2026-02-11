@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml"
+            xmlns="http://javafx.com/javafx"
+            stylesheets="@style.css"
+            fx:controller="org.example.teleporti.SceneControllers.EditTrajetModalController">
+
+    <VBox fx:id="trajetForm" alignment="CENTER" spacing="20.0" styleClass="tp-card" AnchorPane.topAnchor="20" AnchorPane.leftAnchor="20" AnchorPane.rightAnchor="20">
+        <padding><Insets top="20" right="20" bottom="20" left="20"/></padding>
+        <Label style="-fx-font-size: 22px; -fx-font-weight: bold; -fx-text-fill: -tp-primary;" text="Modifier le Trajet"/>
+        
+        <VBox spacing="15.0">
+            <MenuButton fx:id="conducteurs" text="Sélectionner Conducteur" maxWidth="Infinity"/>
+            <HBox spacing="15.0">
+                <MenuButton fx:id="pointDepart" text="Point Départ" HBox.hgrow="ALWAYS" maxWidth="Infinity"/>
+                <MenuButton fx:id="destination" text="Destination" HBox.hgrow="ALWAYS" maxWidth="Infinity"/>
+            </HBox>
+            <DatePicker fx:id="dateHeure" promptText="Date et Heure" maxWidth="Infinity"/>
+            <TextField fx:id="placesDisponibles" promptText="Places Disponibles"/>
+            <HBox spacing="15.0">
+                <TextField fx:id="co2Economise" promptText="CO2 Économisé (g)" HBox.hgrow="ALWAYS"/>
+                <TextField fx:id="prix" promptText="Prix" HBox.hgrow="ALWAYS"/>
+            </HBox>
+        </VBox>
+
+        <HBox alignment="CENTER" spacing="15.0">
+            <Button styleClass="button-primary" text="Sauvegarder" onAction="#onSave" prefWidth="150" prefHeight="40"/>
+            <Button styleClass="button-primary" text="Annuler" onAction="#onCancel" prefWidth="150" prefHeight="40" style="-fx-background-color: #94a3b8;"/>
+        </HBox>
+    </VBox>
+    
+</AnchorPane>

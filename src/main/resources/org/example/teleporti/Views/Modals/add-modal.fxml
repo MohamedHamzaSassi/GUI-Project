@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml"
+            xmlns="http://javafx.com/javafx"
+            stylesheets="@style.css"
+            fx:controller="org.example.teleporti.SceneControllers.AddModalController"
+            style="-fx-background-color: rgba(0,0,0,0.5);">
+
+    <VBox alignment="CENTER" AnchorPane.topAnchor="0.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+        <padding><Insets top="40" right="40" bottom="40" left="40"/></padding>
+        
+        <VBox fx:id="addUserForm" alignment="CENTER" spacing="20.0" styleClass="tp-card" maxWidth="450">
+            <Label style="-fx-font-size: 22px; -fx-font-weight: bold; -fx-text-fill: -tp-primary;" text="Ajouter Utilisateur"/>
+            <GridPane hgap="15" vgap="15">
+                 <TextField fx:id="prenomField" promptText="Prénom" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+                 <TextField fx:id="nomField" promptText="Nom" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+                 <TextField fx:id="emailField" promptText="Email" GridPane.rowIndex="1" GridPane.columnIndex="0" GridPane.columnSpan="2"/>
+                 <PasswordField fx:id="passwordField" promptText="Mot de passe" GridPane.rowIndex="2" GridPane.columnIndex="0" GridPane.columnSpan="2"/>
+                 <TextField fx:id="ageField" promptText="Âge" GridPane.rowIndex="3" GridPane.columnIndex="0"/>
+                 <TextField fx:id="telephoneField" promptText="Téléphone" GridPane.rowIndex="3" GridPane.columnIndex="1"/>
+                 <MenuButton fx:id="governeratField" text="Gouvernorat" maxWidth="Infinity" GridPane.rowIndex="4" GridPane.columnIndex="0"/>
+                 <TextField fx:id="villeField" promptText="Ville" GridPane.rowIndex="4" GridPane.columnIndex="1"/>
+            </GridPane>
+            <HBox alignment="CENTER" spacing="15.0">
+                <Button styleClass="button-primary" text="Enregistrer" onAction="#onSave" prefWidth="120" prefHeight="40"/>
+                <Button styleClass="button-primary" text="Annuler" onAction="#onCancel" prefWidth="120" prefHeight="40" style="-fx-background-color: #94a3b8;"/>
+            </HBox>
+        </VBox>
+
+        <VBox fx:id="addTrajetForm" alignment="CENTER" spacing="20.0" styleClass="tp-card" maxWidth="450">
+            <Label style="-fx-font-size: 22px; -fx-font-weight: bold; -fx-text-fill: -tp-primary;" text="Ajouter Trajet"/>
+            <VBox spacing="10.0">
+                <MenuButton fx:id="conducteurField" text="Conducteur" maxWidth="Infinity"/>
+                <HBox spacing="15.0">
+                    <MenuButton fx:id="pointDepartField" text="Point Départ" maxWidth="Infinity" HBox.hgrow="ALWAYS"/>
+                    <MenuButton fx:id="destinationField" text="Destination" maxWidth="Infinity" HBox.hgrow="ALWAYS"/>
+                </HBox>
+                <TextField fx:id="placesDisponiblesField" promptText="Places Disponibles"/>
+                <HBox spacing="15.0">
+                    <VBox spacing="5" HBox.hgrow="ALWAYS">
+                         <Label text="CO2 Économisé (g)" style="-fx-font-size: 12px;"/>
+                         <TextField fx:id="co2EconomiseField" promptText="ex: 150"/>
+                    </VBox>
+                    <VBox spacing="5" HBox.hgrow="ALWAYS">
+                         <Label text="Prix" style="-fx-font-size: 12px;"/>
+                         <TextField fx:id="prixField" promptText="ex: 15.0"/>
+                    </VBox>
+                </HBox>
+            </VBox>
+            <HBox alignment="CENTER" spacing="15.0">
+                <Button styleClass="button-primary" text="Enregistrer" onAction="#onSave" prefWidth="120" prefHeight="40"/>
+                <Button styleClass="button-primary" text="Annuler" onAction="#onCancel" prefWidth="120" prefHeight="40" style="-fx-background-color: #94a3b8;"/>
+            </HBox>
+        </VBox>
+
+        <VBox fx:id="addReservationForm" alignment="CENTER" spacing="20.0" styleClass="tp-card" maxWidth="450">
+            <Label style="-fx-font-size: 22px; -fx-font-weight: bold; -fx-text-fill: -tp-primary;" text="Ajouter Réservation"/>
+            <VBox spacing="15.0">
+                <MenuButton fx:id="trajetField" text="Sélectionner Trajet" maxWidth="Infinity"/>
+                <MenuButton fx:id="passagerField" text="Sélectionner Passager" maxWidth="Infinity"/>
+                <MenuButton fx:id="statusField" text="Statut" maxWidth="Infinity"/>
+            </VBox>
+            <HBox alignment="CENTER" spacing="15.0">
+                <Button styleClass="button-primary" text="Enregistrer" onAction="#onSave" prefWidth="120" prefHeight="40"/>
+                <Button styleClass="button-primary" text="Annuler" onAction="#onCancel" prefWidth="120" prefHeight="40" style="-fx-background-color: #94a3b8;"/>
+            </HBox>
+        </VBox>
+    </VBox>
+
+</AnchorPane>

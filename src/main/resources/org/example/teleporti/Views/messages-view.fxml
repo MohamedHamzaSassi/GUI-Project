@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import org.kordamp.ikonli.javafx.FontIcon?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="org.example.teleporti.SceneControllers.MessagesViewController"
+            stylesheets="@style.css"
+            styleClass="main-container"
+            xmlns="http://javafx.com/javafx/17.0.12">
+
+    <left>
+        <VBox alignment="TOP_CENTER" spacing="15.0" styleClass="sidebar" prefWidth="200.0">
+            <padding>
+                <Insets top="20" right="10" bottom="20" left="10"/>
+            </padding>
+            <ImageView fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                <Image url="@../Images/logo.png"/>
+            </ImageView>
+            <Region prefHeight="20.0" />
+            <Button alignment="CENTER_LEFT" onAction="#onGoToProfile" styleClass="button-primary" text="Profile" maxWidth="Infinity"/>
+            <Button alignment="CENTER_LEFT" onAction="#onGoToMessages" styleClass="button-primary" text="Chats" maxWidth="Infinity"/>
+            <Region VBox.vgrow="ALWAYS" />
+            <Button alignment="CENTER" onAction="#onLogout" styleClass="button-primary" text="Déconnecter" maxWidth="Infinity" style="-fx-background-color: #ef4444;"/>
+        </VBox>
+    </left>
+
+    <center>
+        <VBox spacing="20.0">
+            <padding>
+                <Insets top="20" right="20" bottom="20" left="20"/>
+            </padding>
+            
+            <HBox alignment="CENTER_LEFT" spacing="15.0">
+                <Label text="Conversations" style="-fx-font-size: 24px; -fx-font-weight: bold; -fx-text-fill: -tp-primary;"/>
+                <Region HBox.hgrow="ALWAYS" />
+                <Label fx:id="welcome" styleClass="welcome"/>
+            </HBox>
+
+            <HBox spacing="20.0" VBox.vgrow="ALWAYS">
+                <VBox styleClass="tp-card" spacing="10.0" prefWidth="300.0">
+                    <TextField fx:id="messageSearch" promptText="Rechercher une conversation..." styleClass="text-field"/>
+                    <ListView fx:id="listView" VBox.vgrow="ALWAYS" style="-fx-background-color: transparent;"/>
+                </VBox>
+                
+                <VBox styleClass="tp-card" spacing="15.0" HBox.hgrow="ALWAYS">
+                    <ListView fx:id="conversationView" VBox.vgrow="ALWAYS" style="-fx-background-color: transparent;"/>
+                    <HBox spacing="10.0" alignment="CENTER">
+                        <TextField fx:id="message" promptText="Écrire votre message..." HBox.hgrow="ALWAYS" styleClass="text-field"/>
+                        <Button styleClass="button-primary" onAction="#sendMessage">
+                            <graphic>
+                                <FontIcon iconLiteral="mdi2s-send" iconColor="white"/>
+                            </graphic>
+                        </Button>
+                    </HBox>
+                </VBox>
+            </HBox>
+        </VBox>
+    </center>
+</BorderPane>

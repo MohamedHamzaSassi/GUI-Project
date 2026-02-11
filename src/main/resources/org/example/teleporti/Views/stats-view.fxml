@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.example.teleporti.SceneControllers.StatsViewController"
+            stylesheets="@style.css"
+            styleClass="main-container">
+
+    <left>
+        <VBox alignment="TOP_CENTER" spacing="15.0" styleClass="sidebar" prefWidth="200.0">
+            <padding>
+                <Insets top="20" right="10" bottom="20" left="10"/>
+            </padding>
+            <ImageView fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                <Image url="@../Images/logo.png"/>
+            </ImageView>
+            <Region prefHeight="20.0" />
+            <Button alignment="CENTER_LEFT" styleClass="button-primary" text="Dashboard" onAction="#onGoToDashboard" maxWidth="Infinity"/>
+            <Button alignment="CENTER_LEFT" styleClass="button-primary" text="Stats" onAction="#onGoToStats" maxWidth="Infinity"/>
+            <Button alignment="CENTER_LEFT" styleClass="button-primary" text="Profile" onAction="#onGoToProfile" maxWidth="Infinity"/>
+            <Button alignment="CENTER_LEFT" styleClass="button-primary" text="Maps" onAction="#onGoToMaps" maxWidth="Infinity"/>
+            <Button alignment="CENTER_LEFT" styleClass="button-primary" text="Chats" onAction="#onGoToMessages" maxWidth="Infinity"/>
+            <Button alignment="CENTER_LEFT" styleClass="button-primary" text="Utilisateurs" onAction="#onGoToUsers" maxWidth="Infinity"/>
+            <Button alignment="CENTER_LEFT" styleClass="button-primary" text="Trajets" onAction="#onGoToTrajets" maxWidth="Infinity"/>
+            <Button alignment="CENTER_LEFT" styleClass="button-primary" text="Reservations" onAction="#onGoToReservations" maxWidth="Infinity"/>
+            <Region VBox.vgrow="ALWAYS" />
+            <Button alignment="CENTER" styleClass="button-primary" text="Déconnecter" onAction="#onLogout" maxWidth="Infinity" style="-fx-background-color: #ef4444;"/>
+        </VBox>
+    </left>
+
+    <center>
+        <VBox spacing="20.0">
+            <padding>
+                <Insets top="20" right="20" bottom="20" left="20"/>
+            </padding>
+            
+            <HBox alignment="CENTER_LEFT" spacing="15.0">
+                <Label text="Statistiques Globales" style="-fx-font-size: 24px; -fx-font-weight: bold; -fx-text-fill: -tp-primary;"/>
+                <Region HBox.hgrow="ALWAYS" />
+                <Label fx:id="welcome" styleClass="welcome"/>
+            </HBox>
+
+            <TilePane hgap="20" vgap="20" prefColumns="2">
+                <VBox styleClass="tp-card" spacing="10" minWidth="300">
+                    <Label text="CO2 Économisé" style="-fx-font-size: 16px; -fx-text-fill: -tp-text-secondary;"/>
+                    <Label text="1,250 kg" style="-fx-font-size: 28px; -fx-font-weight: bold; -fx-text-fill: -tp-accent;" styleClass="badge-eco"/>
+                </VBox>
+                
+                <VBox styleClass="tp-card" spacing="10" minWidth="300">
+                    <Label text="Trajets Effectués" style="-fx-font-size: 16px; -fx-text-fill: -tp-text-secondary;"/>
+                    <Label text="458" style="-fx-font-size: 28px; -fx-font-weight: bold; -fx-text-fill: -tp-primary;"/>
+                </VBox>
+                
+                <VBox styleClass="tp-card" spacing="10" minWidth="300">
+                    <Label text="Économies d'Énergie" style="-fx-font-size: 16px; -fx-text-fill: -tp-text-secondary;"/>
+                    <Label text="85%" style="-fx-font-size: 28px; -fx-font-weight: bold; -fx-text-fill: -tp-accent;" styleClass="badge-eco"/>
+                </VBox>
+                
+                <VBox styleClass="tp-card" spacing="10" minWidth="300">
+                    <Label text="Utilisateurs Actifs" style="-fx-font-size: 16px; -fx-text-fill: -tp-text-secondary;"/>
+                    <Label text="1,024" style="-fx-font-size: 28px; -fx-font-weight: bold; -fx-text-fill: -tp-primary;"/>
+                </VBox>
+            </TilePane>
+        </VBox>
+    </center>
+</BorderPane>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.geometry.Insets?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml"
+            xmlns="http://javafx.com/javafx"
+            fx:controller="org.example.teleporti.SceneControllers.ErrorModalController"
+            stylesheets="@style.css">
+
+    <VBox alignment="CENTER" styleClass="tp-card" AnchorPane.topAnchor="20" AnchorPane.leftAnchor="20" AnchorPane.rightAnchor="20" prefWidth="300">
+        <padding><Insets top="20" right="20" bottom="20" left="20"/></padding>
+        <Label style="-fx-font-size: 18px; -fx-font-weight: bold; -fx-text-fill: #ef4444;" text="Erreur"/>
+        <Label fx:id="label" wrapText="true" textAlignment="CENTER" style="-fx-text-fill: -tp-text-primary;"/>
+    </VBox>
+
+</AnchorPane>
