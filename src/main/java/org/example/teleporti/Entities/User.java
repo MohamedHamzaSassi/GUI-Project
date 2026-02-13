@@ -15,6 +15,7 @@ public class User {
     private String ville;
     private String addresse;
     private String telephone;
+    private float rating = 0.0f;
     private String token = "";
     private Date creationDate = new Date(new java.util.Date().getTime());
     private Date updateDate = new Date(new java.util.Date().getTime());
@@ -30,7 +31,8 @@ public class User {
             String governerat,
             String ville,
             String addresse,
-            String telephone
+            String telephone,
+            float rating
     ) {
         this.id = id;
         this.nom = nom;
@@ -43,6 +45,7 @@ public class User {
         this.ville = ville;
         this.addresse = addresse;
         this.telephone = telephone;
+        this.rating = rating;
     }
 
     public User(
@@ -57,6 +60,7 @@ public class User {
             String ville,
             String addresse,
             String telephone,
+            float rating,
             Date creationDate,
             Date updateDate
     ) {
@@ -71,6 +75,7 @@ public class User {
         this.ville = ville;
         this.addresse = addresse;
         this.telephone = telephone;
+        this.rating = rating;
         this.creationDate = creationDate;
         this.updateDate = updateDate;
     }
@@ -179,6 +184,14 @@ public class User {
         this.telephone = telephone;
     }
 
+    public float getRating() {
+        return rating;
+    }
+
+    public void setRating(float rating) {
+        this.rating = rating;
+    }
+
     public String getToken() {
         return token;
     }
@@ -190,12 +203,12 @@ public class User {
     @Override
     public boolean equals(Object o) {
         if (!(o instanceof User user)) return false;
-        return getId() == user.getId() && getAge() == user.getAge() && Objects.equals(getNom(), user.getNom()) && Objects.equals(getPrenom(), user.getPrenom()) && Objects.equals(getEmail(), user.getEmail()) && Objects.equals(getMotDePasse(), user.getMotDePasse()) && Objects.equals(getType(), user.getType()) && Objects.equals(getGovernerat(), user.getGovernerat()) && Objects.equals(getVille(), user.getVille()) && Objects.equals(getAddresse(), user.getAddresse()) && Objects.equals(getTelephone(), user.getTelephone()) && Objects.equals(getToken(), user.getToken()) && Objects.equals(getCreationDate(), user.getCreationDate()) && Objects.equals(getUpdateDate(), user.getUpdateDate());
+        return getId() == user.getId() && getAge() == user.getAge() && Float.compare(user.getRating(), getRating()) == 0 && Objects.equals(getNom(), user.getNom()) && Objects.equals(getPrenom(), user.getPrenom()) && Objects.equals(getEmail(), user.getEmail()) && Objects.equals(getMotDePasse(), user.getMotDePasse()) && Objects.equals(getType(), user.getType()) && Objects.equals(getGovernerat(), user.getGovernerat()) && Objects.equals(getVille(), user.getVille()) && Objects.equals(getAddresse(), user.getAddresse()) && Objects.equals(getTelephone(), user.getTelephone()) && Objects.equals(getToken(), user.getToken()) && Objects.equals(getCreationDate(), user.getCreationDate()) && Objects.equals(getUpdateDate(), user.getUpdateDate());
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(getId(), getNom(), getPrenom(), getAge(), getEmail(), getMotDePasse(), getType(), getGovernerat(), getVille(), getAddresse(), getTelephone(), getToken(), getCreationDate(), getUpdateDate());
+        return Objects.hash(getId(), getNom(), getPrenom(), getAge(), getEmail(), getMotDePasse(), getType(), getGovernerat(), getVille(), getAddresse(), getTelephone(), getRating(), getToken(), getCreationDate(), getUpdateDate());
     }
 
     @Override
@@ -212,6 +225,7 @@ public class User {
                 ", ville='" + ville + '\'' +
                 ", addresse='" + addresse + '\'' +
                 ", telephone='" + telephone + '\'' +
+                ", rating=" + rating +
                 ", token='" + token + '\'' +
                 ", creationDate=" + creationDate +
                 ", updateDate=" + updateDate +
@@ -219,7 +233,7 @@ public class User {
     }
 
     public static User empty() {
-        return new User(0, "", "", 0, "", "", "Client", "", "", "", "");
+        return new User(0, "", "", 0, "", "", "Client", "", "", "", "", 0.0f);
     }
 }
 

@@ -37,14 +37,15 @@ public class ServiceTrajet implements IServiceTrajet {
     @Override
     public void ajout(Trajet newTrajet) {
         String req =
-                "insert into trajets (conducteurId, pointDepart, destination, dateHeure, placesDisponibles ,co2Economise, prix) values ('" +
+                "insert into trajets (conducteurId, pointDepart, destination, dateHeure, placesDisponibles ,co2Economise, prix, vehicleType) values ('" +
                         newTrajet.getConducteurId() + "', '" +
                         newTrajet.getPointDepart() + "', '" +
                         newTrajet.getDestination() + "', '" +
                         newTrajet.getDateHeure() + "', '" +
                         newTrajet.getPlacesDisponibles() + "', '" +
                         newTrajet.getCo2Economise() + "', '" +
-                        newTrajet.getPrix()
+                        newTrajet.getPrix() + "', '" +
+                        newTrajet.getVehicleType()
                         + "')";
         try {
             ste.executeUpdate(req);
@@ -55,7 +56,7 @@ public class ServiceTrajet implements IServiceTrajet {
 
     @Override
     public List<Trajet> afficher() {
-        String req = "select id, conducteurId, pointDepart, destination, dateHeure, placesDisponibles, co2Economise from trajets";
+        String req = "select id, conducteurId, pointDepart, destination, dateHeure, placesDisponibles, co2Economise, prix, vehicleType from trajets";
         ArrayList<Trajet> trajets = new ArrayList<>();
         try {
             if (getSize() == 0) {
@@ -70,7 +71,8 @@ public class ServiceTrajet implements IServiceTrajet {
                             "\nDate et heure: " + res.getDate("dateHeure") +
                             "\nPlaces disponibles: " + res.getInt("placesDisponibles") +
                             "\nCO2 économisé: " + res.getFloat("co2Economise") +
-                            "\nPrix: " + res.getFloat("prix")
+                            "\nPrix: " + res.getFloat("prix") +
+                            "\nVehicle Type: " + res.getString("vehicleType")
                     );
                     trajets.add(new Trajet(
                             res.getInt("id"),
@@ -80,7 +82,8 @@ public class ServiceTrajet implements IServiceTrajet {
                             res.getDate("dateHeure"),
                             res.getInt("placesDisponibles"),
                             res.getFloat("co2Economise"),
-                            res.getFloat("prix")
+                            res.getFloat("prix"),
+                            res.getString("vehicleType")
                     ));
                 }
             }
@@ -98,6 +101,8 @@ public class ServiceTrajet implements IServiceTrajet {
                 "', dateHeure = '" + trajet.getDateHeure() +
                 "', placesDisponibles = '" + trajet.getPlacesDisponibles() +
                 "', co2Economise = '" + trajet.getCo2Economise() +
+                "', prix = '" + trajet.getPrix() +
+                "', vehicleType = '" + trajet.getVehicleType() +
                 "' where id = " + trajet.getId();
         try {
             ste.executeUpdate(req);
@@ -126,22 +131,26 @@ public class ServiceTrajet implements IServiceTrajet {
     @Override
     public List<Trajet> getTrajetsByUserId(int id) {
         String req = "select * from trajets where conducteurId = " + id;
+        List<Trajet> trajets = new ArrayList<>();
         try {
             ResultSet res = ste.executeQuery(req);
             while (res.next()) {
-                System.out.println("ID: " + res.getInt("id") +
-                        "\nConducteur ID: " + res.getInt("conducteurId") +
-                        "\nPoint de départ: " + res.getString("pointDepart") +
-                        "\nDestination: " + res.getString("destination") +
-                        "\nDate et heure: " + res.getDate("dateHeure") +
-                        "\nPlaces disponibles: " + res.getInt("placesDisponibles") +
-                        "\nCO2 économisé: " + res.getFloat("co2Economise")
-                );
+                trajets.add(new Trajet(
+                        res.getInt("id"),
+                        res.getInt("conducteurId"),
+                        res.getString("pointDepart"),
+                        res.getString("destination"),
+                        res.getDate("dateHeure"),
+                        res.getInt("placesDisponibles"),
+                        res.getFloat("co2Economise"),
+                        res.getFloat("prix"),
+                        res.getString("vehicleType")
+                ));
             }
         } catch (SQLException e) {
             System.out.println(e.getMessage());
         }
-        return null;
+        return trajets;
     }
 
     public int getSize() {
@@ -207,7 +216,8 @@ public class ServiceTrajet implements IServiceTrajet {
                         res.getDate("dateHeure"),
                         res.getInt("placesDisponibles"),
                         res.getFloat("co2Economise"),
-                        res.getFloat("prix")
+                        res.getFloat("prix"),
+                        res.getString("vehicleType")
                 ));
             }
             return trajets;
@@ -235,7 +245,8 @@ public class ServiceTrajet implements IServiceTrajet {
                         res.getDate("dateHeure"),
                         res.getInt("placesDisponibles"),
                         res.getFloat("co2Economise"),
-                        res.getFloat("prix")
+                        res.getFloat("prix"),
+                        res.getString("vehicleType")
                 );
             }
         } catch (SQLException e) {
@@ -257,7 +268,8 @@ public class ServiceTrajet implements IServiceTrajet {
                         res.getDate("dateHeure"),
                         res.getInt("placesDisponibles"),
                         res.getFloat("co2Economise"),
-                        res.getFloat("prix")
+                        res.getFloat("prix"),
+                        res.getString("vehicleType")
                 );
             }
         } catch (SQLException e) {
@@ -275,7 +287,8 @@ public class ServiceTrajet implements IServiceTrajet {
                 "dateHeure date NOT NULL," +
                 "placesDisponibles int NOT NULL," +
                 "co2Economise float NOT NULL," +
-                "prix float NOT NULL" +
+                "prix float NOT NULL," +
+                "vehicleType varchar(255) NOT NULL" +
                 ")";
         try {
             ste.executeUpdate(req);

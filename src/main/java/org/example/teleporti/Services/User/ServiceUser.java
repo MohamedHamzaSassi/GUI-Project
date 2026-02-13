@@ -37,7 +37,7 @@ public class ServiceUser implements IServiceUser {
     // Méthode pour ajouter un nouvel utilisateur dans la base de données.
     @Override
     public boolean ajout(User newUser) {
-        String req = "insert into users (nom, prenom, age, email, password, type, governerat, ville, addresse, telephone, creation_date, update_date) values ('" +
+        String req = "insert into users (nom, prenom, age, email, password, type, governerat, ville, addresse, telephone, rating, creation_date, update_date) values ('" +
                 newUser.getNom() + "', '" +
                 newUser.getPrenom() + "', '" +
                 newUser.getAge() + "', '" +
@@ -48,6 +48,7 @@ public class ServiceUser implements IServiceUser {
                 newUser.getVille() + "', '" +
                 newUser.getAddresse() + "', '" +
                 newUser.getTelephone() + "', '" +
+                newUser.getRating() + "', '" +
                 newUser.getCreationDate() + "', '" +
                 newUser.getUpdateDate() +
                 "')";
@@ -68,7 +69,7 @@ public class ServiceUser implements IServiceUser {
     // Méthode pour afficher tous les utilisateurs dans la base de données.
     @Override
     public void afficher() {
-        String req = "select id, nom, prenom, age, email, password, type, creation_date, update_date from users";
+        String req = "select id, nom, prenom, age, email, password, type, rating, creation_date, update_date from users";
         try {
             if (getSize() == 0) { // Vérifie si la table "users" est vide
                 System.out.println("Aucun utilisateur trouvé");
@@ -82,6 +83,7 @@ public class ServiceUser implements IServiceUser {
                             "\nEmail: " + res.getString("email") +
                             "\nMot de passe: " + res.getString("password") +
                             "\nType: " + res.getString("type") +
+                            "\nRating: " + res.getFloat("rating") +
                             "\nDate de création: " + res.getString("creation_date") +
                             "\nDate de modification: " + res.getString("update_date")
                     );
@@ -111,6 +113,7 @@ public class ServiceUser implements IServiceUser {
                         res.getString("ville"),
                         res.getString("addresse"),
                         res.getString("telephone"),
+                        res.getFloat("rating"),
                         res.getDate("creation_date"),
                         res.getDate("update_date")
                 ));
@@ -134,7 +137,8 @@ public class ServiceUser implements IServiceUser {
                 user.getGovernerat() + "', ville = '" +
                 user.getVille() + "', addresse = '" +
                 user.getAddresse() + "', telephone = '" +
-                user.getTelephone() + "', creation_date = '" +
+                user.getTelephone() + "', rating = '" +
+                user.getRating() + "', creation_date = '" +
                 user.getCreationDate() + "', update_date = '" +
                 user.getUpdateDate() + "' where id = " +
                 user.getId();
@@ -168,6 +172,7 @@ public class ServiceUser implements IServiceUser {
                         res.getString("ville"),
                         res.getString("addresse"),
                         res.getString("telephone"),
+                        res.getFloat("rating"),
                         res.getDate("creation_date"),
                         res.getDate("update_date")
                 ));
@@ -264,6 +269,7 @@ public class ServiceUser implements IServiceUser {
                         res.getString("ville"),
                         res.getString("addresse"),
                         res.getString("telephone"),
+                        res.getFloat("rating"),
                         res.getDate("creation_date"),
                         res.getDate("update_date")
                 );
@@ -296,6 +302,7 @@ public class ServiceUser implements IServiceUser {
                         res.getString("ville"),
                         res.getString("addresse"),
                         res.getString("telephone"),
+                        res.getFloat("rating"),
                         res.getDate("creation_date"),
                         res.getDate("update_date")
                 );
@@ -329,6 +336,7 @@ public class ServiceUser implements IServiceUser {
                         res.getString("ville"),
                         res.getString("addresse"),
                         res.getString("telephone"),
+                        res.getFloat("rating"),
                         res.getDate("creation_date"),
                         res.getDate("update_date")
                 );
@@ -357,6 +365,7 @@ public class ServiceUser implements IServiceUser {
                         res.getString("ville"),
                         res.getString("addresse"),
                         res.getString("telephone"),
+                        res.getFloat("rating"),
                         res.getDate("creation_date"),
                         res.getDate("update_date")
                 );
@@ -386,6 +395,7 @@ public class ServiceUser implements IServiceUser {
                         res.getString("ville"),
                         res.getString("addresse"),
                         res.getString("telephone"),
+                        res.getFloat("rating"),
                         res.getDate("creation_date"),
                         res.getDate("update_date")
                 ));
@@ -415,6 +425,7 @@ public class ServiceUser implements IServiceUser {
                         res.getString("ville"),
                         res.getString("addresse"),
                         res.getString("telephone"),
+                        res.getFloat("rating"),
                         res.getDate("creation_date"),
                         res.getDate("update_date")
                 ));
@@ -453,6 +464,7 @@ public class ServiceUser implements IServiceUser {
                 "ville varchar(50)," +
                 "addresse varchar(255)," +
                 "telephone varchar(8)," +
+                "rating float default 0.0," +
                 "token varchar(50)," +
                 "creation_date datetime," +
                 "update_date datetime" +

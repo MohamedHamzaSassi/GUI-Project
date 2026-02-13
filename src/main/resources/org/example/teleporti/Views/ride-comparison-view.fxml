@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.image.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.example.teleporti.SceneControllers.RideComparisonViewController"
+            stylesheets="@style.css"
+            styleClass="main-container">
+
+    <left>
+        <VBox alignment="TOP_CENTER" spacing="15.0" styleClass="sidebar" prefWidth="220.0">
+            <padding>
+                <Insets top="20" right="10" bottom="20" left="10"/>
+            </padding>
+            <ImageView fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                <Image url="@../Images/logo.png"/>
+            </ImageView>
+            <Region prefHeight="20.0" />
+            
+            <Label text="FILTRES" style="-fx-font-weight: bold; -fx-text-fill: -tp-text-secondary;"/>
+            
+            <VBox spacing="10.0" styleClass="tp-card">
+                <Label text="Prix Max"/>
+                <Slider fx:id="priceFilter" min="0" max="200" value="200" showTickLabels="true" showTickMarks="true"/>
+                <Label fx:id="priceValueLabel" text="200 DT"/>
+            </VBox>
+            
+            <VBox spacing="10.0" styleClass="tp-card">
+                <Label text="Note Driver Min"/>
+                <Slider fx:id="ratingFilter" min="0" max="5" value="0" blockIncrement="0.5" showTickLabels="true" showTickMarks="true"/>
+                <Label fx:id="ratingValueLabel" text="0.0"/>
+            </VBox>
+            
+            <VBox spacing="10.0" styleClass="tp-card">
+                <Label text="CO₂ Économisé Min"/>
+                <Slider fx:id="co2Filter" min="0" max="1000" value="0" showTickLabels="true" showTickMarks="true"/>
+                <Label fx:id="co2ValueLabel" text="0 g"/>
+            </VBox>
+            
+            <VBox spacing="10.0" styleClass="tp-card">
+                <Label text="Type de Véhicule"/>
+                <ComboBox fx:id="vehicleTypeFilter" promptText="Tous" maxWidth="Infinity"/>
+            </VBox>
+
+            <Region VBox.vgrow="ALWAYS" />
+            <Button alignment="CENTER_LEFT" styleClass="button-primary" text="Accueil" onAction="#onGoToHome" maxWidth="Infinity"/>
+            <Button alignment="CENTER" styleClass="button-primary" text="Déconnecter" onAction="#onLogout" maxWidth="Infinity" style="-fx-background-color: #ef4444;"/>
+        </VBox>
+    </left>
+
+    <center>
+        <VBox spacing="20.0">
+            <padding>
+                <Insets top="20" right="20" bottom="20" left="20"/>
+            </padding>
+            
+            <HBox alignment="CENTER_LEFT" spacing="15.0">
+                <Label text="Comparer les Trajets" style="-fx-font-size: 24px; -fx-font-weight: bold; -fx-text-fill: -tp-primary;"/>
+                <Region HBox.hgrow="ALWAYS" />
+                <Label fx:id="welcome" styleClass="welcome"/>
+            </HBox>
+
+            <TabPane VBox.vgrow="ALWAYS" tabClosingPolicy="UNAVAILABLE">
+                <Tab text="Comparaison Côte à Côte">
+                    <ScrollPane fitToHeight="true" fitToWidth="true">
+                        <content>
+                            <HBox fx:id="comparisonBox" spacing="20.0">
+                                <padding>
+                                    <Insets top="20" right="20" bottom="20" left="20"/>
+                                </padding>
+                                <!-- Comparison cards will be added here dynamically -->
+                            </HBox>
+                        </content>
+                    </ScrollPane>
+                </Tab>
+                <Tab text="Tableau des Coûts">
+                    <VBox spacing="15.0" styleClass="tp-card">
+                        <TableView fx:id="costTable" VBox.vgrow="ALWAYS">
+                            <columns>
+                                <TableColumn fx:id="driverCol" text="Chauffeur" prefWidth="150"/>
+                                <TableColumn fx:id="vehicleCol" text="Véhicule" prefWidth="100"/>
+                                <TableColumn fx:id="ratingCol" text="Note" prefWidth="60"/>
+                                <TableColumn fx:id="priceCol" text="Prix (DT)" prefWidth="100"/>
+                                <TableColumn fx:id="co2Col" text="CO₂ (g)" prefWidth="100"/>
+                                <TableColumn fx:id="actionCol" text="Action" prefWidth="120"/>
+                            </columns>
+                        </TableView>
+                    </VBox>
+                </Tab>
+            </TabPane>
+        </VBox>
+    </center>
+</BorderPane>

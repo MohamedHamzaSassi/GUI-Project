@@ -80,10 +80,13 @@ public class TrajetsViewController {
                         String.valueOf(trajet.getCo2Economise()).toLowerCase().contains(value.toLowerCase()) ||
                         String.valueOf(trajet.getPrix()).toLowerCase().contains(value.toLowerCase());
             }).toList());
+            
             trajetsTable.setItems(trajetsList);
+            
         });
     }
 
+    
     @FXML
     public void setCurrentUser(User currentUser) {
         this.currentUser = currentUser;

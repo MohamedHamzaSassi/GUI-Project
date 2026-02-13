@@ -26,6 +26,7 @@ public class Router {
     public static final String HISTORY_VIEW = "/org/example/teleporti/Views/history-view.fxml";
     public static final String MAPS_VIEW = "/org/example/teleporti/Views/maps-view.fxml";
     public static final String USERS_VIEW = "/org/example/teleporti/Views/users-view.fxml";
+    public static final String COMPARE_VIEW = "/org/example/teleporti/Views/ride-comparison-view.fxml";
     public static final String EDIT_USER_MODAL_VIEW = "/org/example/teleporti/Views/Modals/edit-user-modal.fxml";
     public static final String EDIT_RESERVATION_MODAL_VIEW = "/org/example/teleporti/Views/Modals/edit-reservation-modal.fxml";
     public static final String EDIT_TRAJET_MODAL_VIEW = "/org/example/teleporti/Views/Modals/edit-trajet-modal.fxml";
@@ -239,6 +240,20 @@ public class Router {
             FXMLLoader loader = new FXMLLoader(Router.class.getResource(RESERVATIONS_VIEW));
             Scene scene = new Scene(loader.load());
             ReservationsViewController controller = loader.getController();
+            controller.setCurrentUser(currentUser);
+            Stage stage = (Stage) welcome.getScene().getWindow();
+            scene.getStylesheets().add(BootstrapFX.bootstrapFXStylesheet());
+            stage.setScene(scene);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static void goToCompare(User currentUser, Label welcome) {
+        try {
+            FXMLLoader loader = new FXMLLoader(Router.class.getResource(COMPARE_VIEW));
+            Scene scene = new Scene(loader.load());
+            RideComparisonViewController controller = loader.getController();
             controller.setCurrentUser(currentUser);
             Stage stage = (Stage) welcome.getScene().getWindow();
             scene.getStylesheets().add(BootstrapFX.bootstrapFXStylesheet());

@@ -42,7 +42,7 @@ public class SignupViewController {
         String ville = villeText.getText();
         int age = Integer.parseInt(ageText.getText());
 
-        User newUser = new User(userController.getSize() + 1, nom, prenom, age, email, password, "Client", gouvernerat, ville, "", "");
+        User newUser = new User(userController.getSize() + 1, nom, prenom, age, email, password, "Client", gouvernerat, ville, "", "", 0.0f);
 
         if (nom.isEmpty() || prenom.isEmpty() || email.isEmpty() || password.isEmpty() || ageText.getText().isEmpty() || gouvernerat.isEmpty() || ville.isEmpty()) {
             errorText.setText("Please fill in all fields.");

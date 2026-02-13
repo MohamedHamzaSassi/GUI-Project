@@ -51,6 +51,14 @@
                     <ImageView fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
                         <Image url="@../Images/Trip_history.png"/>
                     </ImageView>
+                    <Label text="Comparer les Trajets" style="-fx-font-weight: bold;"/>
+                    <Button styleClass="button-primary" text="Comparer" onAction="#onGoToCompare" maxWidth="Infinity"/>
+                </VBox>
+
+                <VBox styleClass="tp-card" spacing="15.0" alignment="CENTER" prefWidth="250">
+                    <ImageView fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+                        <Image url="@../Images/Trip_history.png"/>
+                    </ImageView>
                     <Label text="Votre Historique" style="-fx-font-weight: bold;"/>
                     <Button styleClass="button-primary" text="Voir l'Historique" onAction="#onGoToHistory" maxWidth="Infinity"/>
                 </VBox>

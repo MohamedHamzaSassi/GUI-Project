@@ -86,4 +86,13 @@ public class UserViewController {
             e.printStackTrace();
         }
     }
+
+    @FXML
+    public void onGoToCompare() {
+        try {
+            Router.goToCompare(currentUser, welcome);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 }

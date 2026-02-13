@@ -7,7 +7,7 @@ import java.sql.SQLException;
 public class DatabaseConnection {
 
     private Connection con;
-    private String dburl = "jdbc:mysql://localhost:3306/teleporti";
+    private String dburl = "jdbc:mysql://localhost:3306/cotransport";
     private String dbuser = "root";
     private String dbpassword = "";
 
