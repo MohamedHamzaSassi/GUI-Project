@@ -6,13 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a7446c88-f259-41ae-b7b6-73e98c4da351" name="Changes" comment="update 'stay logged in' and added comparision">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/teleporti/SceneControllers/AddModalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/teleporti/SceneControllers/AddModalController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/teleporti/SceneControllers/MessagesViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/teleporti/SceneControllers/MessagesViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/teleporti/SceneControllers/TrajetsViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/teleporti/SceneControllers/TrajetsViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/teleporti/Views/Modals/add-modal.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/teleporti/Views/Modals/add-modal.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/teleporti/Views/messages-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/teleporti/Views/messages-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/teleporti/Views/ride-comparison-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/teleporti/Views/ride-comparison-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/teleporti/Views/trajets-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/teleporti/Views/trajets-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +87,7 @@
       <workItem from="1770846257250" duration="8000" />
       <workItem from="1770846287215" duration="602000" />
       <workItem from="1770846946297" duration="3723000" />
-      <workItem from="1771016184420" duration="10666000" />
+      <workItem from="1771016184420" duration="11298000" />
     </task>
     <task id="LOCAL-00001" summary="update 'stay logged in' and added comparision">
       <option name="closed" value="true" />
