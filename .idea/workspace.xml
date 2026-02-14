@@ -4,27 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7446c88-f259-41ae-b7b6-73e98c4da351" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/teleporti/SceneControllers/RideComparisonViewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/teleporti/Views/ride-comparison-view.fxml" afterDir="false" />
+    <list default="true" id="a7446c88-f259-41ae-b7b6-73e98c4da351" name="Changes" comment="update 'stay logged in' and added comparision">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/teleporti/Controllers/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/teleporti/Controllers/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/teleporti/Entities/Trajet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/teleporti/Entities/Trajet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/teleporti/Entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/teleporti/Entities/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/teleporti/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/teleporti/MainApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/teleporti/SceneControllers/SignupViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/teleporti/SceneControllers/SignupViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/teleporti/SceneControllers/AddModalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/teleporti/SceneControllers/AddModalController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/teleporti/SceneControllers/MessagesViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/teleporti/SceneControllers/MessagesViewController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/teleporti/SceneControllers/TrajetsViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/teleporti/SceneControllers/TrajetsViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/teleporti/SceneControllers/UserViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/teleporti/SceneControllers/UserViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/teleporti/Services/Auth/ServiceAuth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/teleporti/Services/Auth/ServiceAuth.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/teleporti/Services/Trajet/ServiceTrajet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/teleporti/Services/Trajet/ServiceTrajet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/teleporti/Services/User/ServiceUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/teleporti/Services/User/ServiceUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/teleporti/Utils/DatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/teleporti/Utils/DatabaseConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/teleporti/Utils/Router.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/teleporti/Utils/Router.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/teleporti/Images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/teleporti/Images/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/teleporti/Views/login-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/teleporti/Views/login-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/teleporti/Views/register-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/teleporti/Views/register-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/teleporti/Views/user-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/teleporti/Views/user-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/teleporti/Views/Modals/add-modal.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/teleporti/Views/Modals/add-modal.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/teleporti/Views/messages-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/teleporti/Views/messages-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/teleporti/Views/ride-comparison-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/teleporti/Views/ride-comparison-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/teleporti/Views/trajets-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/teleporti/Views/trajets-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,11 +94,24 @@
       <workItem from="1770846257250" duration="8000" />
       <workItem from="1770846287215" duration="602000" />
       <workItem from="1770846946297" duration="3723000" />
-      <workItem from="1771016184420" duration="5039000" />
+      <workItem from="1771016184420" duration="10666000" />
     </task>
+    <task id="LOCAL-00001" summary="update 'stay logged in' and added comparision">
+      <option name="closed" value="true" />
+      <created>1771021367529</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1771021367530</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update 'stay logged in' and added comparision" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 'stay logged in' and added comparision" />
   </component>
 </project>

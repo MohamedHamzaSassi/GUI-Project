@@ -58,6 +58,7 @@
                         <TableColumn fx:id="conducteurColumn" text="Conducteur"><cellValueFactory><PropertyValueFactory property="conducteurId"/></cellValueFactory></TableColumn>
                         <TableColumn fx:id="pointDepartColumn" text="Départ"><cellValueFactory><PropertyValueFactory property="pointDepart"/></cellValueFactory></TableColumn>
                         <TableColumn fx:id="destinationColumn" text="Destination"><cellValueFactory><PropertyValueFactory property="destination"/></cellValueFactory></TableColumn>
+                        <TableColumn fx:id="vehicleTypeColumn" text="Véhicule" prefWidth="120"/>
                         <TableColumn fx:id="dateHeureColumn" text="Date &amp; Heure"><cellValueFactory><PropertyValueFactory property="dateHeure"/></cellValueFactory></TableColumn>
                         <TableColumn fx:id="placesDisponiblesColumn" text="Places"><cellValueFactory><PropertyValueFactory property="placesDisponibles"/></cellValueFactory></TableColumn>
                         <TableColumn fx:id="co2EconomiseColumn" text="CO2 Économisé (g)"><cellValueFactory><PropertyValueFactory property="co2Economise"/></cellValueFactory></TableColumn>

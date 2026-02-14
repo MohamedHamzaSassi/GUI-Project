@@ -110,6 +110,17 @@ public class MessagesViewController {
             e.printStackTrace();
         }
     }
+    public void onGoToHome() {
+        try {
+            if (currentUser.getType().equals("Admin")) {
+                Router.goToDashboard(currentUser, welcome);
+            } else {
+                Router.goToUser(currentUser, welcome);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 
     @FXML
     public void onGoToMessages() {

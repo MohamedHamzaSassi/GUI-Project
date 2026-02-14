@@ -39,6 +39,7 @@
                     <MenuButton fx:id="pointDepartField" text="Point Départ" maxWidth="Infinity" HBox.hgrow="ALWAYS"/>
                     <MenuButton fx:id="destinationField" text="Destination" maxWidth="Infinity" HBox.hgrow="ALWAYS"/>
                 </HBox>
+                <TextField fx:id="vehicleTypeField" promptText="Type de véhicule"/>
                 <TextField fx:id="placesDisponiblesField" promptText="Places Disponibles"/>
                 <HBox spacing="15.0">
                     <VBox spacing="5" HBox.hgrow="ALWAYS">

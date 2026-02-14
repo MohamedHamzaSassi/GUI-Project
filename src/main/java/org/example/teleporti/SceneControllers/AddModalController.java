@@ -44,6 +44,8 @@ public class AddModalController {
     @FXML
     protected MenuButton destinationField;
     @FXML
+    private TextField vehicleTypeField;
+    @FXML
     protected TextField placesDisponiblesField;
     @FXML
     protected TextField co2EconomiseField;
@@ -139,6 +141,7 @@ public class AddModalController {
             item.setOnAction(unused -> destinationField.setText(location.getName()));
             return item;
         }).toArray(MenuItem[]::new));
+        vehicleTypeField.setText("");
         placesDisponiblesField.setText("");
         co2EconomiseField.setText("");
         prixField.setText("");
@@ -194,6 +197,7 @@ public class AddModalController {
                 }).findFirst().map(User::getId).orElseThrow(() -> new IllegalArgumentException("Conducteur not found")));
                 trajet.setPointDepart(pointDepartField.getText());
                 trajet.setDestination(destinationField.getText());
+                trajet.setVehicleType(vehicleTypeField.getText());
                 trajet.setPlacesDisponibles(Integer.parseInt(placesDisponiblesField.getText()));
                 trajet.setCo2Economise(Integer.parseInt(co2EconomiseField.getText()));
                 trajet.setPrix(Integer.parseInt(prixField.getText()));

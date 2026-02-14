@@ -23,7 +23,9 @@
             </ImageView>
             <Region prefHeight="20.0" />
             <Button alignment="CENTER_LEFT" onAction="#onGoToProfile" styleClass="button-primary" text="Profile" maxWidth="Infinity"/>
-            <Button alignment="CENTER_LEFT" onAction="#onGoToMessages" styleClass="button-primary" text="Chats" maxWidth="Infinity"/>
+            <Button alignment="CENTER_LEFT" onAction="#onGoToHome" styleClass="button-primary" text="Acceuil" maxWidth="Infinity"/>
+            <Button alignment="CENTER_LEFT" onAction="#onGoToMessages" styleClass="button-primary" text="Actualiser" maxWidth="Infinity"/>
+
             <Region VBox.vgrow="ALWAYS" />
             <Button alignment="CENTER" onAction="#onLogout" styleClass="button-primary" text="Déconnecter" maxWidth="Infinity" style="-fx-background-color: #ef4444;"/>
         </VBox>

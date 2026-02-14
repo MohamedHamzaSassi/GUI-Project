@@ -38,6 +38,8 @@ public class TrajetsViewController {
     @FXML
     public TableColumn<Trajet, String> destinationColumn;
     @FXML
+    public TableColumn<Trajet, String> vehicleTypeColumn;
+    @FXML
     public TableColumn<Trajet, String> dateHeureColumn;
     @FXML
     public TableColumn<Trajet, String> placesDisponiblesColumn;
@@ -63,6 +65,7 @@ public class TrajetsViewController {
         conducteurColumn.setCellValueFactory(new javafx.scene.control.cell.PropertyValueFactory<>("conducteurId"));
         pointDepartColumn.setCellValueFactory(new javafx.scene.control.cell.PropertyValueFactory<>("pointDepart"));
         destinationColumn.setCellValueFactory(new javafx.scene.control.cell.PropertyValueFactory<>("destination"));
+        vehicleTypeColumn.setCellValueFactory(new javafx.scene.control.cell.PropertyValueFactory<>("vehicleType"));
         dateHeureColumn.setCellValueFactory(new javafx.scene.control.cell.PropertyValueFactory<>("dateHeure"));
         placesDisponiblesColumn.setCellValueFactory(new javafx.scene.control.cell.PropertyValueFactory<>("placesDisponibles"));
         co2EconomiseColumn.setCellValueFactory(new javafx.scene.control.cell.PropertyValueFactory<>("co2Economise"));
@@ -85,7 +88,7 @@ public class TrajetsViewController {
             
         });
     }
-
+    
     
     @FXML
     public void setCurrentUser(User currentUser) {

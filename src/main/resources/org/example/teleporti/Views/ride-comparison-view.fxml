@@ -82,7 +82,8 @@
                             <columns>
                                 <TableColumn fx:id="driverCol" text="Chauffeur" prefWidth="150"/>
                                 <TableColumn fx:id="vehicleCol" text="Véhicule" prefWidth="100"/>
-                                <TableColumn fx:id="ratingCol" text="Note" prefWidth="60"/>
+                                <TableColumn fx:id="ratingCol" text="Note" prefWidth="60"/> 
+                                
                                 <TableColumn fx:id="priceCol" text="Prix (DT)" prefWidth="100"/>
                                 <TableColumn fx:id="co2Col" text="CO₂ (g)" prefWidth="100"/>
                                 <TableColumn fx:id="actionCol" text="Action" prefWidth="120"/>
